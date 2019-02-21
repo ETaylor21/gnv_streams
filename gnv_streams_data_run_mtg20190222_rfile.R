@@ -84,9 +84,16 @@ data_nut_USE_ME = summarise(group_data_nut, mean = mean(Result))#calculate avera
 #####Nutrient plotting############
 
 
-f = ggplot(data_nut_USE_ME, aes(x=Date, y=mean, group = Site, color = Analyte, shape = Site)) 
+f = ggplot(data_nut_USE_ME, aes(x=Date, y=mean)) 
 
-f + geom_point()
+lol = f + geom_line(aes(group = Site, color = Site)) + geom_point(size = 2, aes(xend=Date, color = Site, shape = Site), yend = 0) + 
+  scale_color_brewer(palette = 'Dark2') +
+  theme(panel.grid.major.y = element_blank()) + facet_grid(Analyte ~ ., scales = 'free_y')
+
+
+lol + ylab('Result')
+
+
 
 ###########Field Parameter Plotting#########
 
