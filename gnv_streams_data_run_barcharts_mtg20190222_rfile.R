@@ -50,10 +50,10 @@ data_fp_bar_USE_ME
 
 nutrient = ggplot(data_nut_bar_USE_ME, aes(x = Site, y = mean, fill = Analyte))
 
-p = nutrient + geom_col(position = 'dodge') + ylab('Results (mg/L)')
+p = nutrient + geom_col(position = 'dodge') + ylab('Results (mg/L)')#make column chart
 
 p + geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2, position = position_dodge(0.9)) + 
-  facet_grid(Analyte ~ ., scales = 'free_y')
+  facet_grid(Analyte ~ ., scales = 'free_y')#adding error bars to column chart, also adding
 
 #Field Parameter Chart
 

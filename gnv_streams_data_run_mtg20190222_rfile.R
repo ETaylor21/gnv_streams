@@ -91,7 +91,7 @@ lol = f + geom_line(aes(group = Site, color = Site)) + geom_point(size = 2, aes(
   theme(panel.grid.major.y = element_blank()) + facet_grid(Analyte ~ ., scales = 'free_y')
 
 
-lol + ylab('Result')
+lol + ylab('Result (mg/L)')
 
 
 
