@@ -30,7 +30,7 @@ data_nut_bar=read_csv('gnv_streams_data_run_mtg20190222.csv')
 
 data_fp_bar=read_csv('gnv_streams_data_run_mtg20190222_v2.csv')
 
-data_fp_bar = drop_na(data_fp_bar,)
+data_fp_bar = drop_na(data_fp_bar)
 
 ######Get POR average of analytes by station###############
 
@@ -46,16 +46,26 @@ data_fp_bar_USE_ME
 
 ############create barcharts with error bar###############
 
+#Nutrient concentration charts
+
 nutrient = ggplot(data_nut_bar_USE_ME, aes(x = Site, y = mean, fill = Analyte))
 
-p = nutrient + geom_col(position = 'dodge') + ylab('Result (mg/L)')
+p = nutrient + geom_col(position = 'dodge') + ylab('Results (mg/L)')
 
-p + geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2, position = position_dodge(0.9)) + facet_grid(Analyte ~ ., scales = 'free_y')
+p + geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2, position = position_dodge(0.9)) + 
+  facet_grid(Analyte ~ ., scales = 'free_y')
 
+#Field Parameter Chart
 
 fp = ggplot(data_fp_bar_USE_ME, aes(x = Site, y = mean, fill = Analyte))
 
-pf = fp + geom_col(position = 'dodge') + ylab('Result')
+pf = fp + geom_col(position = 'dodge') 
 
-pf + geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2, position = position_dodge(0.9)) + facet_grid(Analyte ~ ., scales = 'free_y')
+pf + geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2, position = position_dodge(0.9)) + 
+  facet_grid(Analyte ~ ., scales = 'free_y',
+             labeller = as_labeller(c(DO = "DO (mg/L)", DO_Sat = "DO Saturation (%)", pH = 'pH (SU)', SpCond = 'SpCond (uS/cm)', Temp = 'Temperature (degC)', 
+                                      Turb = 'Turbidity (NTU)' )))  +
+  ylab(NULL) +
+  theme(strip.background = element_blank(),
+        strip.placement = "outside")
                   
