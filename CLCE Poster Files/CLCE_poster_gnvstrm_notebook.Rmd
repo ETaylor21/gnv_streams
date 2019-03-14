@@ -1,25 +1,28 @@
-##Data run for CLCE Poster Presentation; March 20, 2019
+---
+title: "R Notebook"
+output: html_notebook
+---
+Data run for CLCE Poster Presentation; March 20, 2019
 
-##Parameter List with Units
-#DO - dissolved oxygen (mg/L)
-#DO_Sat - dissolved oxygen saturation (%)
-#Temp - water temperature (deg C)
-#SpCond - specific conductivity (uS/cm)
-#pH - pH (SU)
-#Turb - turbidity (NTU)
+Parameter List with Units
+DO - dissolved oxygen (mg/L)
+DO_Sat - dissolved oxygen saturation (%)
+Temp - water temperature (deg C)
+SpCond - specific conductivity (uS/cm)
+pH - pH (SU)
+Turb - turbidity (NTU)
 
-####NOx, O_P, NH4 all filtered samples###
+NOx, O_P, NH4 all filtered samples
 
-#NOx - Nitrate(NO3)-Nitrite(NO2)-N (mg/L)
-#OP - orthophosphate(P) (mg/L)
-#NH4 - ammonia(N) (mg/L)
+NOx - Nitrate(NO3)-Nitrite(NO2)-N (mg/L)
+OP - orthophosphate(P) (mg/L)
+NH4 - ammonia(N) (mg/L)
 
-####Sample Replications (col = Rep) 
-#a = 1; b = 2; c = 3; d = not a rep just a reading
+Sample Replications (col = Rep) 
+a = 1; b = 2; c = 3; d = not a rep just a reading
 
-################################################################
 
-#call in packages
+```{r Project Set-Up and Nutrient Run}
 
 library(tidyverse)
 library(lubridate)
@@ -65,8 +68,11 @@ pf = p + geom_errorbar(aes(ymin = mean-std.error, ymax = mean+std.error), width 
   #in facet wrap the first changes whether panels are arranged horizantally or vertically, second allows sites to be different on the y, 
   #third changes the amont of rows to 3 and columns to 0 so that figures stack and headers stay on top
 
-pf + scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' )) + guides(fill = FALSE)#changes colors on bar fill to colorblind friendly
+pf + scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' )) + guides(fill = FALSE)
+```
 
+
+```{r Nutrient Box Plot (nbp)}
 ###############Nutrient Box Plot (nbp)################
 nd2 = data_nut %>% 
   filter(Date >= as.Date('2018-10-18') & Date <=  as.Date('2019-02-06')) %>%
@@ -76,11 +82,15 @@ nd2 = data_nut %>%
 nd2
 
 npb = ggplot(nd2, aes(x = Site, y = mean, fill = Analyte)) +
-  geom_boxplot() + ylab('Results (mg/L)')
+      geom_boxplot() + ylab('Results (mg/L)')
 
 npb + scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' ))
 
-#faceted boplots
+
+
+```
+```{r Facted Box Plots}
+
 
 npb2 = npb + facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
                          labeller = as_labeller(c(NH4 = "Ammonium (N)", 
@@ -90,21 +100,26 @@ npb2 = npb + facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3,
 
 
 npb2
+```
 
-#####Nutrient Time-Series (nts)#####
 
+Nutrient Time Series (nts)
+```{r}
 nut_ts = ggplot(nd2, aes(x = Date, y = mean, fill = Site))
 
 nts = nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Results (mg/L)') + 
   geom_point(size = 2, aes(x=Date, color = Site, shape = Site)) + 
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
-              labeller = as_labeller(c(NH4 = "Ammonium (N)", 
+                            labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
                                        OP = 'Orthophosphate (P)')))
 
 nts + scale_color_manual(values = c('#56B4E9','#D55E00', '#009E73', '#CC79A7', '#0072B2', '#E69F00' )) + guides(fill = FALSE)
 
-#####Nutrient Data of just Possum Creek and Hogtown Upstream (pchu_ts)#####
+```
+
+```{r Nutrient Data of just Possum Creek and Hogtown Upstream (pchu_ts)}
+
 
 pchu = data_nut %>% 
   filter(Date >= as.Date('2018-10-18') & Date <=  as.Date('2019-02-06') ) %>%
@@ -126,13 +141,10 @@ pchu_ts = pchu_nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Resul
   scale_color_brewer(palette = 'Dark2') + guides(fill = FALSE)
 
 pchu_ts
+```
 
 
-
-############################################################################################################
-
-##############Field Parameter Bar Charts############
-
+```{r Field Parameter Bar Charts (fpb)}
 fp = data_fp %>% 
   filter(Date >= as.Date('2018-10-18') & Date <=  as.Date('2019-02-06') ) %>%
               filter(Analyte == 'DO_Sat' | Analyte == 'pH' | Analyte == 'SpCond' | Analyte == 'Temp' | Analyte == 'Turb') %>%
@@ -147,8 +159,6 @@ fp2 = data_fp %>%
   group_by(Site, Analyte)
 
 fp2
-
-#####Field Parameter Bar Chart (fpb)############
 
 field_param = ggplot(fp, aes(x = Site, y = mean, fill = Analyte))
 
@@ -168,7 +178,12 @@ fpb = field_param_bar + geom_errorbar(aes(ymin = mean-std.error, ymax = mean+std
 
 fpb + scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73', '#CC79A7', '#0072B2' )) + guides(fill = FALSE)#changes colors on bar fill to colorblind friendly
 
-#####Field Parameter Time Series (fpts)#####
+
+
+```
+
+```{r Field Parameter Time Series (fpts)}
+
 
 field_param_ts = ggplot(fp2, aes(x = Date, y = Result))
 
@@ -186,4 +201,5 @@ fpts = field_param_ts + geom_line(aes(group = Site, color = Site)) + ylab(NULL) 
 #third changes the amont of rows to 3 and columns to 0 so that figures stack and headers stay on top
 
 fpts + scale_color_manual(values = c('#56B4E9','#D55E00', '#009E73', '#CC79A7', '#0072B2', '#E69F00' )) + guides(fill = FALSE)
+```
 
