@@ -79,7 +79,7 @@ nd2
 npb = ggplot(nd2, aes(x = Site, y = mean, fill = Analyte)) +
   geom_boxplot() + ylab('Results (mg/L)')
 
-npb + scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' ))
+npb + scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' )) 
 
 #faceted boplots
 
@@ -87,8 +87,10 @@ npb2 = npb + facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3,
                          labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                                   NOx = "Nitrate-Nitrite (N)", 
                                                   OP = 'Orthophosphate (P)'))) +
-  theme(strip.text = element_text(size = 15)) +
-  scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' )) + guides(fill = FALSE)
+  theme(strip.text = element_text(size = 18)) +
+  scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' )) + guides(fill = FALSE) +
+  theme(axis.text = element_text(size = rel(1.2))) + 
+  theme(axis.title = element_text(size = rel(1.3)))
 
 
 npb2
@@ -126,8 +128,10 @@ pchu_ts = pchu_nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Resul
                             labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
                                        OP = 'Orthophosphate (P)'))) +
-  theme(strip.text = element_text(size = 15)) + 
-  scale_color_brewer(palette = 'Dark2') + guides(fill = FALSE)
+  theme(strip.text = element_text(size = 18)) + 
+  scale_color_brewer(palette = 'Dark2') + guides(fill = FALSE) +
+  theme(axis.text = element_text(size = rel(1.2))) + 
+  theme(axis.title = element_text(size = rel(1.3)))
 
 pchu_ts
 
@@ -177,7 +181,7 @@ fpb + scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73', '#CC79A7', '#
 field_param_ts = ggplot(fp2, aes(x = Date, y = Result))
 
 fpts = field_param_ts + geom_line(aes(group = Site, color = Site)) + ylab(NULL) + 
-  geom_point(size = 2, aes(x=Date, color = Site, shape = Site)) + 
+  geom_point(size = 4, aes(x=Date, color = Site, shape = Site)) + 
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 5, 
               strip.position = 'left',
               labeller = as_labeller(c(DO_Sat = "DO Saturation (%)", 
@@ -185,9 +189,13 @@ fpts = field_param_ts + geom_line(aes(group = Site, color = Site)) + ylab(NULL) 
                                        SpCond = 'SpCond (uS/cm)', 
                                        Temp = 'Temperature (degC)', 
                                        Turb = 'Turbidity (NTU)' ))) + 
-  theme(strip.placement = 'outside', strip.text = element_text(size = 11))#adding error bars to column chart and creating facets; 
+  theme(strip.placement = 'outside', strip.text = element_text(size = 11))+
+  theme(axis.text = element_text(size = rel(1.2))) + 
+  theme(axis.title = element_text(size = rel(1.3)), legend.position = 'bottom') 
+
+#adding error bars to column chart and creating facets; 
 #in facet wrap the first changes whether panels are arranged horizantally or vertically, second allows sites to be different on the y, 
 #third changes the amont of rows to 3 and columns to 0 so that figures stack and headers stay on top
 
-fpts + scale_color_manual(values = c('#56B4E9','#D55E00', '#009E73', '#CC79A7', '#0072B2', '#E69F00' )) + guides(fill = FALSE)
-
+fpts + scale_color_manual(values = c('#56B4E9','#D55E00', '#009E73', '#CC79A7', '#0072B2', '#E69F00' )) +
+  guides(fill = FALSE, col = guide_legend(nrow = 1))                                                                                                                  
