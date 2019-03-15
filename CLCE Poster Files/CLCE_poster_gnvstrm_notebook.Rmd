@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "CLCE Poster Figures"
 output: html_notebook
 ---
 Data run for CLCE Poster Presentation; March 20, 2019
@@ -64,7 +64,8 @@ pf = p + geom_errorbar(aes(ymin = mean-std.error, ymax = mean+std.error), width 
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
               labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
-                                       OP = 'Orthophosphate (P)')))#adding error bars to column chart and creating facets; 
+                                       OP = 'Orthophosphate (P)'))) + 
+              theme(strip.text = element_text(size = 15))#adding error bars to column chart and creating facets; 
   #in facet wrap the first changes whether panels are arranged horizantally or vertically, second allows sites to be different on the y, 
   #third changes the amont of rows to 3 and columns to 0 so that figures stack and headers stay on top
 

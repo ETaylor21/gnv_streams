@@ -61,7 +61,8 @@ pf = p + geom_errorbar(aes(ymin = mean-std.error, ymax = mean+std.error), width 
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
               labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
-                                       OP = 'Orthophosphate (P)')))#adding error bars to column chart and creating facets; 
+                                       OP = 'Orthophosphate (P)'))) +
+  theme(strip.text = element_text(size = 15))#adding error bars to column chart and creating facets; 
   #in facet wrap the first changes whether panels are arranged horizantally or vertically, second allows sites to be different on the y, 
   #third changes the amont of rows to 3 and columns to 0 so that figures stack and headers stay on top
 
@@ -86,6 +87,7 @@ npb2 = npb + facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3,
                          labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                                   NOx = "Nitrate-Nitrite (N)", 
                                                   OP = 'Orthophosphate (P)'))) +
+  theme(strip.text = element_text(size = 15)) +
   scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' )) + guides(fill = FALSE)
 
 
@@ -100,7 +102,8 @@ nts = nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Results (mg/L)
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
               labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
-                                       OP = 'Orthophosphate (P)')))
+                                       OP = 'Orthophosphate (P)'))) + 
+  theme(strip.text = element_text(size = 15))
 
 nts + scale_color_manual(values = c('#56B4E9','#D55E00', '#009E73', '#CC79A7', '#0072B2', '#E69F00' )) + guides(fill = FALSE)
 
@@ -123,6 +126,7 @@ pchu_ts = pchu_nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Resul
                             labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
                                        OP = 'Orthophosphate (P)'))) +
+  theme(strip.text = element_text(size = 15)) + 
   scale_color_brewer(palette = 'Dark2') + guides(fill = FALSE)
 
 pchu_ts
@@ -162,7 +166,7 @@ fpb = field_param_bar + geom_errorbar(aes(ymin = mean-std.error, ymax = mean+std
                                        SpCond = 'SpCond (uS/cm)', 
                                        Temp = 'Temperature (degC)', 
                                        Turb = 'Turbidity (NTU)' ))) + 
-                theme(strip.placement = 'outside')#adding error bars to column chart and creating facets; 
+                theme(strip.placement = 'outside', strip.text = element_text(size = 11))#adding error bars to column chart and creating facets; 
 #in facet wrap the first changes whether panels are arranged horizantally or vertically, second allows sites to be different on the y, 
 #third changes the amont of rows to 3 and columns to 0 so that figures stack and headers stay on top
 
@@ -181,7 +185,7 @@ fpts = field_param_ts + geom_line(aes(group = Site, color = Site)) + ylab(NULL) 
                                        SpCond = 'SpCond (uS/cm)', 
                                        Temp = 'Temperature (degC)', 
                                        Turb = 'Turbidity (NTU)' ))) + 
-  theme(strip.placement = 'outside')#adding error bars to column chart and creating facets; 
+  theme(strip.placement = 'outside', strip.text = element_text(size = 11))#adding error bars to column chart and creating facets; 
 #in facet wrap the first changes whether panels are arranged horizantally or vertically, second allows sites to be different on the y, 
 #third changes the amont of rows to 3 and columns to 0 so that figures stack and headers stay on top
 
