@@ -104,21 +104,24 @@ pchu = data_nut %>%
 
 pchu
 
+windows()
 pchu_nut_ts = ggplot(pchu, aes(x = Date, y = mean, fill = Site))
 
 pchu_ts = pchu_nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Results (mg/L)') + 
   geom_point(size = 4, aes(x=Date, color = Site, shape = Site)) + 
+  scale_x_date(date_breaks = 'month', date_labels = '%b') +
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
               labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
                                        OP = 'Orthophosphate (P)'))) +
   theme(strip.text = element_text(size = 18)) + 
   scale_color_brewer(palette = 'Dark2') + guides(fill = FALSE) +
-  theme(axis.text = element_text(size = rel(1.2))) + 
-  theme(axis.title = element_text(size = rel(1.3))) +
+  theme(axis.text = element_text(size = rel(1.5))) + 
+  theme(axis.title = element_blank()) +
   theme(legend.position = c(0.8, 0.95)) +
   theme(legend.background = element_blank()) +
-  theme(legend.key = element_blank()) +
+  theme(legend.key = element_blank(), 
+        legend.text = element_text(size = rel(1.2))) +
   theme(legend.title = element_blank())
 
 pchu_ts
