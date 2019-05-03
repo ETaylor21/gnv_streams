@@ -235,6 +235,7 @@ summary.all = plyr::ddply(data_all[,c(3:10, 2)], .(Site), summarize,
 
 summary.all
 
+
 windows(height=7, width=14)
 par(mfrow=c(2,3), mar=c(2,2,2,2), cex.main = 2)
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
@@ -243,7 +244,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            axistype = 0, axislabcol = 'gray20', palcex = 1.4, vlcex = 2, plty = 1, 
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
-           pcol = '#56B4E9', 
+           pcol = '#56B4E9', pfcol = '#56B4E9',
            title = 'HATCHET')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
@@ -252,7 +253,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            axistype = 0, axislabcol = 'gray20', palcex = 1.4, vlcex = 2, plty = 1, 
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
-           pcol = '#0072B2',
+           pcol = '#0072B2', pfcol = '#0072B2',
            title = 'HOGTOWN DN')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
@@ -261,7 +262,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            axistype = 0, axislabcol = 'gray20', palcex = 1.5, vlcex = 2, plty = 1, 
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
-           pcol = '#009E73',
+           pcol = '#009E73', pfcol = '#009E73',
            title = 'HOGTOWN UP')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
@@ -270,7 +271,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            axistype = 0, axislabcol = 'gray20', palcex = 1.5, vlcex = 2, plty = 1, 
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
-           pcol = '#669900',
+           pcol = '#669900', pfcol = '#669900',
            title = 'POSSUM CREEK')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
@@ -279,7 +280,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            axistype = 0, axislabcol = 'gray20', palcex = 1.5, vlcex = 2, plty = 1, 
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
-           pcol = '#D55E00',
+           pcol = '#D55E00', pfcol = '#D55E00',
            title = 'SWEETWATER BRANCH')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
@@ -288,6 +289,6 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            axistype = 0, axislabcol = 'gray20', palcex = 1.5, vlcex = 2, plty = 1, 
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
-           pcol = '#E69F00',
+           pcol = '#E69F00', pfcol = '#E69F00',
            title = 'TUMBLIN CREEK')
 
