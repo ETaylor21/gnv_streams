@@ -40,7 +40,7 @@ library(animation)
 
 #set working directory
 
-setwd('C:/Users/Emily/Documents/gnv_streams/SFS Poster')
+setwd('C:/Users/etaylor21/Documents/gnv_streams/SFS Poster')
 
 #call in data file
 
@@ -218,7 +218,7 @@ radarchart(rbind(apply(summary.dat2[,c(3,6,9)], 1, max, na.rm = T),
 
 #####All Site Radar####
 
-data_all = read_csv('gnv_streams_all_20190503.csv') +
+data_all = read_csv('gnv_streams_all_20190503.csv') 
   parse_date(data_all$Date, format = "%m/%d/%Y")
 
 data_all
@@ -236,6 +236,8 @@ summary.all = plyr::ddply(data_all[,c(3:10, 2)], .(Site), summarize,
 summary.all
 
 
+
+
 windows(height=7, width=14)
 par(mfrow=c(2,3), mar=c(2,2,2,2), cex.main = 2)
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
@@ -245,7 +247,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
            pcol = '#56B4E9', pfcol = '#56B4E9',
-           title = 'HATCHET')
+           title = 'HATCHET CREEK')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
                  apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, min, na.rm = T),
@@ -254,7 +256,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
            pcol = '#0072B2', pfcol = '#0072B2',
-           title = 'HOGTOWN DN')
+           title = 'S. HOGTOWN')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
                  apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, min, na.rm = T),
@@ -263,7 +265,7 @@ radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T)
            plwd = 4.5, pty = 16, cglcol = 'gray20', maxmin = T,
            vlabels = c("DO", "pH", "SpC", "Temp", "Turb", "NH4", "NOx", "OP"), 
            pcol = '#009E73', pfcol = '#009E73',
-           title = 'HOGTOWN UP')
+           title = 'N. HOGTOWN')
 
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
                  apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, min, na.rm = T),
