@@ -123,7 +123,7 @@ pchu
 pchu_nut_ts = ggplot(pchu, aes(x = Date, y = mean, fill = Site))
 
 pchu_ts = pchu_nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Results (mg/L)') + 
-  geom_point(size = 2, aes(x=Date, color = Site, shape = Site)) + 
+  geom_point(size = 4, aes(x=Date, color = Site, shape = Site)) + 
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
                             labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
@@ -131,7 +131,11 @@ pchu_ts = pchu_nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Resul
   theme(strip.text = element_text(size = 18)) + 
   scale_color_brewer(palette = 'Dark2') + guides(fill = FALSE) +
   theme(axis.text = element_text(size = rel(1.2))) + 
-  theme(axis.title = element_text(size = rel(1.3)))
+  theme(axis.title = element_text(size = rel(1.3))) +
+  theme(legend.position = c(0.75,1), legend.justification = c(1,1)) + 
+  theme(legend.background = element_blank()) + 
+  theme(legend.key = element_blank()) + 
+  theme(legend.title = element_blank())
 
 pchu_ts
 
@@ -191,7 +195,8 @@ fpts = field_param_ts + geom_line(aes(group = Site, color = Site)) + ylab(NULL) 
                                        Turb = 'Turbidity (NTU)' ))) + 
   theme(strip.placement = 'outside', strip.text = element_text(size = 11))+
   theme(axis.text = element_text(size = rel(1.2))) + 
-  theme(axis.title = element_text(size = rel(1.3)), legend.position = 'bottom') 
+  theme(axis.title = element_text(size = rel(1.3)), legend.position = 'bottom') + 
+  theme(legend.text = element_text(size = rel(1.3)))
 
 #adding error bars to column chart and creating facets; 
 #in facet wrap the first changes whether panels are arranged horizantally or vertically, second allows sites to be different on the y, 
