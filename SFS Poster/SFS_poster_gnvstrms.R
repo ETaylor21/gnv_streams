@@ -27,7 +27,7 @@ library(RColorBrewer)
 
 #set working directory
 
-setwd('C:/Users/etaylor21/Documents/gnv_streams/SFS Poster')
+setwd('C:/Users/Emily/Documents/gnv_streams/SFS Poster')
 
 #call in data file
 
@@ -97,7 +97,8 @@ nvp3 = nvp2 + facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3,
   theme(strip.text = element_text(size = 18)) +
   scale_fill_manual(values = c('#56B4E9','#D55E00', '#009E73' )) + guides(fill = FALSE) +
   theme(axis.text = element_text(size = rel(1.2))) + 
-  theme(axis.title = element_text(size = rel(1.3)))
+  theme(axis.title = element_text(size = rel(1.3))) +
+  theme(axis.title.x = element_blank())
 
 
 nvp3
