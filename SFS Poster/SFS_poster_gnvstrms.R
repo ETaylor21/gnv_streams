@@ -27,7 +27,7 @@ library(RColorBrewer)
 
 #set working directory
 
-setwd('C:/Users/Emily/Documents/gnv_streams/SFS Poster')
+setwd('C:/Users/etaylor21/Documents/gnv_streams/SFS Poster')
 
 #call in data file
 

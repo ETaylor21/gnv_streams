@@ -237,7 +237,7 @@ summary.all
 
 
 
-windows(height=7, width=14)
+windows(height=7, width=10)
 par(mfrow=c(2,3), mar=c(2,2,2,2), cex.main = 2)
 radarchart(rbind(apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, max, na.rm = T), 
                  apply(summary.all[,c(3,6,9,12,15,18,21,24)], 2, min, na.rm = T),
