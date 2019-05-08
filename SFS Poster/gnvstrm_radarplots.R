@@ -48,7 +48,6 @@ data_nut = read_csv('gnv_nutrientdata_20190502.csv', col_types = cols(
   Site = col_character(),
   REP = col_character(),
   Date = col_date(format = "%m/%d/%Y"),
-  Time = col_time(format = ""),
   Analyte = col_character(),
   Result = col_double()))#nutrient data; fixed date format for date column
 
