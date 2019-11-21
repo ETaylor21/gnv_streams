@@ -18,7 +18,8 @@ POS = read_csv('FL_POSNW16_2019-08-14_XX.csv', col_types = cols(
   `Date-Time` = col_datetime(format = "%m/%d/%Y %H:%M:%S"),
   `Discharge (ft3/s)` = col_double()))
 
-POS
+POS %>% 
+  ggplot(aes(x = `Date-Time (UTC)`, y = `Discharge (m3/s)`)) + geom_line()
 
 tz(POS$`Date-Time`)
 
@@ -55,7 +56,8 @@ TUM = read_csv('FL_TUM441_2019-08-14_XX.csv', col_types = cols(
   `Date-Time` = col_datetime(format = "%m/%d/%Y %H:%M:%S"),
   `Discharge (ft3/s)` = col_double()))
 
-TUM
+TUM %>% 
+  ggplot(aes(x = `Date-Time (UTC)`, y = `Discharge (m3/s)`)) + geom_line()
 
 
 tz(TUM$`Date-Time`)
@@ -93,7 +95,9 @@ HOGNW16 = read_csv('FL_HOGNW16_2019-08-14_XX.csv', col_types = cols(
   `Date-Time` = col_datetime(format = "%m/%d/%Y %H:%M:%S"),
   `Discharge (ft3/s)` = col_double()))
 
-HOGNW16
+HOGNW16 %>% 
+  ggplot(aes(x = `Date-Time (UTC)`, y = `Discharge (m3/s)`)) + geom_line()
+
 
 tz(HOGNW16$`Date-Time`)
 
@@ -135,7 +139,7 @@ write_csv(HOGNW16, path = 'C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily T
 
 HAT <- read_xlsx("FL_HAT_2019-09-01_XX.xlsx")
 
-HAT
+
 
 diff(HAT$Time)
 
@@ -143,7 +147,9 @@ HAT <- HAT %>%
   mutate(datetime = paste(HAT$Date, format(HAT$Time, "%T")) %>% ymd_hms(tz = "EST")) %>%
   select(datetime, `Flow (cfs)`)  # drop date/time cols
 
-HAT
+HAT %>% 
+  ggplot(aes(x = `datetime`, y = `Flow (cfs)`)) + geom_line()
+
 
 HAT$datetime
 
@@ -181,6 +187,10 @@ HOGDN <- HOGDN %>%
   select(datetime, `Flow (cfs)`)  # drop date/time cols
 
 HOGDN
+
+HOGDN %>% 
+  ggplot(aes(x = `datetime`, y = `Flow (cfs)`)) + geom_line()
+
 
 HOGDN$datetime
 
