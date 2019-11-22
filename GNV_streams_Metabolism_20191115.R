@@ -31,21 +31,25 @@ library(driftR)
 
 
 #####HATCHET CREEK#####
-HAT = read_csv('C:/Users/Emily/Downloads/SPdata_2019-11-13/FL_HAT_sensorData.csv')
+HAT = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/Metabolism/FL_HAT_sensorData.csv')
 
 HATDischarge = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/StreamPULSE Data Uploads/Discharge/FL_HAT_2019-09-01_XX.csv')
 
 HATPressure = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/Pressure/FL_HAT_2019-11-13_XX.csv')
 
-HAT2 = spread(HAT, key = variable, value = value)
+HAT2 = HAT %>% 
+  filter(DateTime_UTC >= as.Date('2019-02-22') & DateTime_UTC <=  as.Date('2019-08-01')) %>% 
+  filter(is.na(flagtype)) %>% 
+  select(DateTime_UTC, variable, value) %>% 
+  spread(key = variable, value = value)
 
 HAT2
 
 HATPres = HATPressure %>% 
-  filter(datetime >= as.Date('2019-04-12') & datetime <=  as.Date('2019-07-28'))
+  filter(datetime >= as.Date('2019-02-22') & datetime <=  as.Date('2019-08-01'))
 
 HATWaterTemp = HAT2 %>%
-  filter(DateTime_UTC >= as.Date('2019-04-12') & DateTime_UTC <=  as.Date('2019-07-28'))
+  filter(DateTime_UTC >= as.Date('2019-02-22') & DateTime_UTC <=  as.Date('2019-08-01'))
 
 
 DO = bind_cols(HATPres, HATWaterTemp)
@@ -70,8 +74,8 @@ HAT_metab_inputs$depth = baytrends::fillMissing(HAT_metab_inputs$depth)
 
 HAT_metab_inputs %>% 
   mutate(DO.pctsat = 100 * (DO.obs / DO.sat)) %>%
-  select(solar.time, starts_with('DO')) %>%
-  gather(type, DO.value, starts_with('DO')) %>%
+  select(solar.time, discharge, starts_with('DO')) %>%
+  gather(type, DO.value, starts_with('DO'), discharge) %>%
   mutate(units=ifelse(type == 'DO.pctsat', 'DO\n(% sat)', 'DO\n(mg/L)')) %>%
   ggplot(aes(x=solar.time, y=DO.value, color=type)) + geom_line() + 
   facet_grid(units ~ ., scale='free_y') + theme_bw() +
@@ -81,30 +85,28 @@ HAT_metab_inputs %>%
 
 HAT_metab_inputs = as.data.frame(HAT_metab_inputs)
 
-write_csv(HAT_metab_inputs,'C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/StreamPULSE Data Uploads/FL_HAT_2019-09-01_Metab.csv' )
+#write_csv(HAT_metab_inputs,'C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/StreamPULSE Data Uploads/FL_HAT_2019-09-01_Metab_v2.csv' )
 
-dat = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/StreamPULSE Data Uploads/FL_HAT_2019-09-01_Metab.csv', col_names = TRUE)
+#dat = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/StreamPULSE Data Uploads/FL_HAT_2019-09-01_Metab_v2.csv', col_names = TRUE)
 
 
-dat2 = as.data.frame(dat)
-colnames(dat2) = c( 'solar.time', 'DO.obs', 'DO.sat', 'depth', 'temp.water', 'light', 'discharge')
+#dat2 = as.data.frame(dat)
+#colnames(dat2) = c( 'solar.time', 'DO.obs', 'DO.sat', 'depth', 'temp.water', 'light', 'discharge')
 
 bayes_name <- mm_name(type='bayes', pool_K600='binned')# I specified 'binned' in poll_k600 after recieving the error that discharge data should only be included if & only if pool_k600_type indicates hierarchy...not sure what that means but setting the poll_k600 to normal did nothing so I tried binned and it ran
 bayes_name
 
-bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 50, saved_steps = 100)
+bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 500, saved_steps = 500)
 #bayes_specs
 
-
-
-mm <- metab(bayes_specs, data = dat2)
+mm <- metab(bayes_specs, data = HAT_metab_inputs)
 
 mm
 
 output<-as.data.frame(get_params(mm))
 output#check output data
 
-write.csv(output, 'HAT_Test_1_Output.csv') #whatever filename is
+write.csv(output, 'HAT_Test_1_Output_3.csv') #whatever filename is
 
 plot_DO_preds(mm)
 plot_metab_preds(mm)
@@ -120,14 +122,17 @@ Raw_Discharge = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Ta
 
 FAWN_Pressure = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/Pressure/FL_HAT_2019-11-13_XX.csv')
 
-SiteData2 = spread(SiteData, key = variable, value = value)
-SiteData2
+SiteData2 = SiteData %>% 
+  filter(DateTime_UTC >= as.Date('2019-02-22') & DateTime_UTC <=  as.Date('2019-08-01')) %>% 
+  filter(is.na(flagtype)) %>% 
+  select(DateTime_UTC, variable, value) %>% 
+  spread(key = variable, value = value)
 
 Pres = FAWN_Pressure %>% 
-  filter(datetime >= as.Date('2019-04-12') & datetime <=  as.Date('2019-07-28'))
+  filter(datetime >= as.Date('2019-02-22') & datetime <=  as.Date('2019-08-01'))
 
 WaterTemp = SiteData2 %>%
-  filter(DateTime_UTC >= as.Date('2019-04-12') & DateTime_UTC <=  as.Date('2019-07-28'))
+  filter(DateTime_UTC >= as.Date('2019-02-22') & DateTime_UTC <=  as.Date('2019-08-01'))
 
 
 DO = bind_cols(Pres, WaterTemp)
@@ -152,8 +157,8 @@ Metab_inputs$depth = baytrends::fillMissing(Metab_inputs$depth)
 
 Metab_inputs %>% 
   mutate(DO.pctsat = 100 * (DO.obs / DO.sat)) %>%
-  select(solar.time, starts_with('DO')) %>%
-  gather(type, DO.value, starts_with('DO')) %>%
+  select(solar.time, discharge, starts_with('DO')) %>%
+  gather(type, DO.value, starts_with('DO'), discharge) %>%
   mutate(units=ifelse(type == 'DO.pctsat', 'DO\n(% sat)', 'DO\n(mg/L)')) %>%
   ggplot(aes(x=solar.time, y=DO.value, color=type)) + geom_line() + 
   facet_grid(units ~ ., scale='free_y') + theme_bw() +
@@ -174,17 +179,18 @@ Metab_inputs = as.data.frame(Metab_inputs)
 bayes_name <- mm_name(type='bayes', pool_K600='binned')
 bayes_name
 
-bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 50, saved_steps = 100)
+bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 250, saved_steps = 250)
 #bayes_specs
 
 mm <- metab(bayes_specs, data = Metab_inputs)
+
 
 mm
 
 output<-as.data.frame(get_params(mm))
 output#check output data
 
-write.csv(output, 'POS_Test_1_Output.csv') #whatever filename is
+write.csv(output, 'POS_Test_1_Output_v2.csv') #whatever filename is
 
 plot_DO_preds(mm)
 plot_metab_preds(mm)
@@ -201,15 +207,17 @@ Raw_Discharge = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Ta
 
 FAWN_Pressure = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/Pressure/FL_HAT_2019-11-13_XX.csv')
 
-SiteData2 = spread(SiteData, key = variable, value = value)
-SiteData2
+SiteData2 = SiteData %>% 
+  filter(DateTime_UTC >= as.Date('2019-02-22') & DateTime_UTC <=  as.Date('2019-08-01')) %>% 
+  filter(is.na(flagtype)) %>% 
+  select(DateTime_UTC, variable, value) %>% 
+  spread(key = variable, value = value)
 
 Pres = FAWN_Pressure %>% 
-  filter(datetime >= as.Date('2019-04-12') & datetime <=  as.Date('2019-07-28'))
+  filter(datetime >= as.Date('2019-02-22') & DateTime_UTC <=  as.Date('2019-08-01'))
 
 WaterTemp = SiteData2 %>%
-  filter(DateTime_UTC >= as.Date('2019-04-12') & DateTime_UTC <=  as.Date('2019-07-28'))
-
+  filter(DateTime_UTC >= as.Date('2019-02-22') & DateTime_UTC <=  as.Date('2019-08-01'))
 
 DO = bind_cols(Pres, WaterTemp)
 
@@ -233,8 +241,8 @@ Metab_inputs$depth = baytrends::fillMissing(Metab_inputs$depth)
 
 Metab_inputs %>% 
   mutate(DO.pctsat = 100 * (DO.obs / DO.sat)) %>%
-  select(solar.time, starts_with('DO')) %>%
-  gather(type, DO.value, starts_with('DO')) %>%
+  select(solar.time, discharge, starts_with('DO')) %>%
+  gather(type, DO.value, starts_with('DO'), discharge) %>%
   mutate(units=ifelse(type == 'DO.pctsat', 'DO\n(% sat)', 'DO\n(mg/L)')) %>%
   ggplot(aes(x=solar.time, y=DO.value, color=type)) + geom_line() + 
   facet_grid(units ~ ., scale='free_y') + theme_bw() +
@@ -253,7 +261,7 @@ Metab_inputs = as.data.frame(Metab_inputs)
 bayes_name <- mm_name(type='bayes', pool_K600='binned')
 bayes_name
 
-bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 50, saved_steps = 100)
+bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 250, saved_steps = 250)
 #bayes_specs
 
 mm <- metab(bayes_specs, data = Metab_inputs)
@@ -280,15 +288,17 @@ Raw_Discharge = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Ta
 
 FAWN_Pressure = read_csv('C:/Users/Emily/Dropbox (UFL)/AJR Lab/Students/Emily Taylor/GNV Streams/Data/Pressure/FL_HAT_2019-11-13_XX.csv')
 
-SiteData2 = spread(SiteData, key = variable, value = value)
-SiteData2
+SiteData2 = SiteData %>% 
+  filter(DateTime_UTC >= as.Date('2019-04-11') & DateTime_UTC <=  as.Date('2019-08-01')) %>% 
+  filter(is.na(flagtype)) %>% 
+  select(DateTime_UTC, variable, value) %>% 
+  spread(key = variable, value = value)
 
 Pres = FAWN_Pressure %>% 
-  filter(datetime >= as.Date('2019-04-12') & datetime <=  as.Date('2019-07-28'))
+  filter(datetime >= as.Date('2019-04-11') & DateTime_UTC <=  as.Date('2019-08-01'))
 
 WaterTemp = SiteData2 %>%
-  filter(DateTime_UTC >= as.Date('2019-04-12') & DateTime_UTC <=  as.Date('2019-07-28'))
-
+  filter(DateTime_UTC >= as.Date('2019-04-11') & DateTime_UTC <=  as.Date('2019-08-01'))
 
 DO = bind_cols(Pres, WaterTemp)
 
@@ -312,8 +322,8 @@ Metab_inputs$depth = baytrends::fillMissing(Metab_inputs$depth)
 
 Metab_inputs %>% 
   mutate(DO.pctsat = 100 * (DO.obs / DO.sat)) %>%
-  select(solar.time, starts_with('DO')) %>%
-  gather(type, DO.value, starts_with('DO')) %>%
+  select(solar.time, discharge, starts_with('DO')) %>%
+  gather(type, DO.value, starts_with('DO'), discharge) %>%
   mutate(units=ifelse(type == 'DO.pctsat', 'DO\n(% sat)', 'DO\n(mg/L)')) %>%
   ggplot(aes(x=solar.time, y=DO.value, color=type)) + geom_line() + 
   facet_grid(units ~ ., scale='free_y') + theme_bw() +
@@ -332,7 +342,7 @@ Metab_inputs = as.data.frame(Metab_inputs)
 bayes_name <- mm_name(type='bayes', pool_K600='binned')
 bayes_name
 
-bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 50, saved_steps = 100)
+bayes_specs <- specs(bayes_name, day_start = 4, day_end = 28, burnin_steps = 250, saved_steps = 250)
 #bayes_specs
 
 mm <- metab(bayes_specs, data = Metab_inputs)
