@@ -105,11 +105,6 @@ nvp3
 #####Nutrient Time-Series (nts)#####
 
 windows()
-nut_ts = ggplot(nd2, aes(x = Date, y = mean, fill = Site))
-
-nts = nut_ts + geom_line(aes(group = Site, color = Site)) + ylab('Results (mg/L)') +
-  geom_point(size = 4, aes(x=Date, color = Site, shape = Site)) +
-  scale_x_date(date_breaks = 'month', date_labels = '%b') +
   facet_wrap( . ~ Analyte , scales = 'free_y', nrow = 3, 
               labeller = as_labeller(c(NH4 = "Ammonium (N)", 
                                        NOx = "Nitrate-Nitrite (N)", 
