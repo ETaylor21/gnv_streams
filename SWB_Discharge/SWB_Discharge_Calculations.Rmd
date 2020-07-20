@@ -1,0 +1,99 @@
+---
+title: "SWB_Discharge Estimates"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+SWB Discharge Baseflow Calculations
+
+```{r SWB Discharge and Effluent Comparison}
+setwd('C:/Users/Emily/Documents/gnv_streams/SWB_Discharge')
+library(tidyverse)
+library(tibbletime)
+
+SWB = read_csv('~/gnv_streams/SWB_Discharge/SWB_SJRWMD_2011_2019.csv')
+
+SWB %>% 
+  ggplot(aes(x = `Date`)) +
+  geom_line(aes(y = `StreamDischarge_cfs`), color = "#69b3a2")
+
+
+
+```
+```{r WWTP}
+WWTP = read_csv('~/gnv_streams/SWB_Discharge/SWB_WWTP_2011_2019.csv')
+
+WWTP %>% 
+  ggplot(aes(x = `Date`)) + 
+           geom_line(aes( y = `Effluent_cfs`), color = "#E69F00")
+
+
+```
+
+
+
+
+```{r SWB vs Effluent Flow}
+SWB = as_tbl_time(SWB, index = Date)
+WWTP = as_tbl_time(WWTP, index = Date)
+
+SWB_Hourly = SWB %>%
+  mutate(var = StreamDischarge_cfs) %>% 
+  collapse_by("hourly") %>%
+  group_by(Date = lubridate::floor_date(Date, unit = "hour")) %>%
+  summarise(mean_discharge = mean(var))
+  
+All_Stns = left_join(SWB_Hourly, WWTP)
+
+ggplot(All_Stns, aes(x=Date)) +
+  geom_line( aes(y = mean_discharge), size = 1, color = "#69b3a2") + 
+  geom_line( aes(y = Effluent_cfs), size = 0.5, color = "#E69F00") +
+  geom_hline(aes(yintercept=0), colour="#000000", linetype="dashed") +
+  scale_y_continuous(
+    
+    # Features of the first axis
+    name = "Stream Discharge",
+    
+    # Add a second axis and specify its features
+    sec.axis = sec_axis(~., name="Effluent Discharge")
+  )
+```
+
+
+```{r SWB vs Effluent Flow - Scaled In}
+
+All_Stns_low = All_Stns %>% 
+  filter(mean_discharge <100)
+
+
+ggplot(All_Stns_low, aes(x=Date)) +
+  geom_line( aes(y = mean_discharge), size = 1, color = "#69b3a2") + 
+  geom_line( aes(y = Effluent_cfs), size = 0.5, color = "#E69F00") +
+  geom_hline(aes(yintercept=0), colour="#000000", linetype="dashed") +
+  scale_y_continuous(
+    
+    # Features of the first axis
+    name = "Stream Discharge",
+    
+    # Add a second axis and specify its features
+    sec.axis = sec_axis(~., name="Effluent Discharge")
+  )
+
+
+```
+```{r Baseflow}
+
+baseflow = All_Stns %>% 
+  mutate(baseflow = mean_discharge - Effluent_cfs)
+
+base = baseflow %>% 
+  filter(baseflow <50)
+
+ggplot(base, aes(x = Date)) +
+  geom_line(aes (y = baseflow), size = 1, color = "#69b3a2") +
+  geom_hline(aes(yintercept=0), colour="#000000", linetype="dashed")
+
+```
+
+
