@@ -1,0 +1,1833 @@
+﻿Site,Date,Analyte,Result
+HAT,2018-09-14,Dissolved Oxygen,5.84
+HAT,2018-09-14,Dissolved Oxygen Saturation,71.7
+HAT,2018-09-14,pH,6.15
+HAT,2018-09-14,"Temperature, Water",25.6
+HAT,2018-09-14,Turbidity,3.3
+HAT,2018-10-18,Dissolved Oxygen,4.35
+HAT,2018-10-18,Dissolved Oxygen Saturation,52.3
+HAT,2018-10-18,pH,6.66
+HAT,2018-10-18,Specific Conductance,97.7
+HAT,2018-10-18,"Temperature, Water",24.3
+HAT,2018-10-31,Dissolved Oxygen,6.69
+HAT,2018-10-31,Dissolved Oxygen Saturation,69.6
+HAT,2018-10-31,pH,7.1
+HAT,2018-10-31,Specific Conductance,96.4
+HAT,2018-10-31,"Temperature, Water",17.4
+HAT,2018-10-31,Turbidity,1.6
+HAT,2018-11-08,Dissolved Oxygen,6.55
+HAT,2018-11-08,Dissolved Oxygen Saturation,74.9
+HAT,2018-11-08,pH,6.87
+HAT,2018-11-08,Specific Conductance,98
+HAT,2018-11-08,"Temperature, Water",22
+HAT,2018-11-08,Turbidity,0.03
+HAT,2018-11-13,Dissolved Oxygen,6.09
+HAT,2018-11-13,Dissolved Oxygen Saturation,69.3
+HAT,2018-11-13,pH,6.98
+HAT,2018-11-13,Specific Conductance,112.3
+HAT,2018-11-13,"Temperature, Water",21.7
+HAT,2018-11-13,Turbidity,1.08
+HAT,2018-11-29,Dissolved Oxygen,10.01
+HAT,2018-11-29,Dissolved Oxygen Saturation,89.9
+HAT,2018-11-29,pH,7.24
+HAT,2018-11-29,Specific Conductance,93.2
+HAT,2018-11-29,"Temperature, Water",10.06
+HAT,2018-11-29,Turbidity,1.86
+HAT,2018-12-05,Dissolved Oxygen,8.5
+HAT,2018-12-05,Dissolved Oxygen Saturation,84.1
+HAT,2018-12-05,pH,7
+HAT,2018-12-05,Specific Conductance,98.4
+HAT,2018-12-05,"Temperature, Water",14.9
+HAT,2018-12-05,Turbidity,1.43
+HAT,2018-12-20,Dissolved Oxygen,8.93
+HAT,2018-12-20,Dissolved Oxygen Saturation,83.8
+HAT,2018-12-20,pH,6.09
+HAT,2018-12-20,Specific Conductance,71.2
+HAT,2018-12-20,"Temperature, Water",14.8
+HAT,2018-12-20,Turbidity,2.63
+HAT,2019-01-04,Dissolved Oxygen,6.93
+HAT,2019-01-04,Dissolved Oxygen Saturation,75.5
+HAT,2019-01-04,pH,6.29
+HAT,2019-01-04,Specific Conductance,73.1
+HAT,2019-01-04,"Temperature, Water",19.4
+HAT,2019-01-04,Turbidity,1.2
+HAT,2019-01-18,Dissolved Oxygen,9.91
+HAT,2019-01-18,Dissolved Oxygen Saturation,89.9
+HAT,2019-01-18,pH,6.78
+HAT,2019-01-18,Specific Conductance,74.8
+HAT,2019-01-18,"Temperature, Water",10.9
+HAT,2019-01-18,Turbidity,2.3
+HAT,2019-01-25,Dissolved Oxygen,8.58
+HAT,2019-01-25,Dissolved Oxygen Saturation,82
+HAT,2019-01-25,pH,5.77
+HAT,2019-01-25,Specific Conductance,57.8
+HAT,2019-01-25,"Temperature, Water",13.1
+HAT,2019-01-25,Turbidity,2.75
+HAT,2019-02-06,Dissolved Oxygen,8.32
+HAT,2019-02-06,Dissolved Oxygen Saturation,84.9
+HAT,2019-02-06,pH,5.9
+HAT,2019-02-06,Specific Conductance,59.6
+HAT,2019-02-06,"Temperature, Water",16.2
+HAT,2019-02-06,Turbidity,1.53
+HAT,2019-02-20,Dissolved Oxygen,7.27
+HAT,2019-02-20,Dissolved Oxygen Saturation,79.4
+HAT,2019-02-20,pH,6.02
+HAT,2019-02-20,Specific Conductance,72.2
+HAT,2019-02-20,"Temperature, Water",19.6
+HAT,2019-02-20,Turbidity,1.68
+HAT,2019-03-22,Dissolved Oxygen,8.61
+HAT,2019-03-22,Dissolved Oxygen Saturation,85.2
+HAT,2019-03-22,pH,6.89
+HAT,2019-03-22,Specific Conductance,82.5
+HAT,2019-03-22,"Temperature, Water",14.8
+HAT,2019-03-22,Turbidity,2.65
+HAT,2019-04-03,Dissolved Oxygen,8.54
+HAT,2019-04-03,Dissolved Oxygen Saturation,87
+HAT,2019-04-03,pH,7.15
+HAT,2019-04-03,Specific Conductance,87.7
+HAT,2019-04-03,"Temperature, Water",16.2
+HAT,2019-04-03,Turbidity,1.6
+HAT,2019-04-24,Dissolved Oxygen,7.39
+HAT,2019-04-24,Dissolved Oxygen Saturation,79.3
+HAT,2019-04-24,pH,6.98
+HAT,2019-04-24,Specific Conductance,100.4
+HAT,2019-04-24,"Temperature, Water",17.7
+HAT,2019-04-24,Turbidity,1.42
+HAT,2019-05-07,Dissolved Oxygen,6.99
+HAT,2019-05-07,Dissolved Oxygen Saturation,81
+HAT,2019-05-07,pH,7.16
+HAT,2019-05-07,Specific Conductance,105.1
+HAT,2019-05-07,"Temperature, Water",22.7
+HAT,2019-05-07,Turbidity,2.18
+HAT,2019-05-24,Dissolved Oxygen,2.8
+HAT,2019-05-24,Dissolved Oxygen Saturation,34.5
+HAT,2019-05-24,pH,6.65
+HAT,2019-05-24,Specific Conductance,123.5
+HAT,2019-05-24,"Temperature, Water",23.2
+HAT,2019-05-24,Turbidity,2.03
+HAT,2019-06-06,Dissolved Oxygen,2.86
+HAT,2019-06-06,Dissolved Oxygen Saturation,36.7
+HAT,2019-06-06,pH,6.62
+HAT,2019-06-06,Specific Conductance,115.4
+HAT,2019-06-06,"Temperature, Water",25.8
+HAT,2019-06-06,Turbidity,4.31
+HAT,2019-06-18,Dissolved Oxygen,6.23
+HAT,2019-06-18,Dissolved Oxygen Saturation,75.4
+HAT,2019-06-18,pH,6.78
+HAT,2019-06-18,Specific Conductance,122
+HAT,2019-06-18,"Temperature, Water",24.8
+HAT,2019-06-18,Turbidity,1.28
+HAT,2019-07-09,Dissolved Oxygen,6.43
+HAT,2019-07-09,Dissolved Oxygen Saturation,79
+HAT,2019-07-09,pH,6.04
+HAT,2019-07-09,Specific Conductance,79.2
+HAT,2019-07-09,"Temperature, Water",25.8
+HAT,2019-07-09,Turbidity,1.61
+HAT,2019-07-29,Dissolved Oxygen,6.19
+HAT,2019-07-29,Dissolved Oxygen Saturation,73.9
+HAT,2019-07-29,pH,5.18
+HAT,2019-07-29,Specific Conductance,69.4
+HAT,2019-07-29,"Temperature, Water",24.2
+HAT,2019-07-29,Turbidity,1.54
+HAT,2019-08-14,Dissolved Oxygen,5.46
+HAT,2019-08-14,Dissolved Oxygen Saturation,67.5
+HAT,2019-08-14,pH,4.94
+HAT,2019-08-14,Specific Conductance,58.2
+HAT,2019-08-14,"Temperature, Water",26.2
+HAT,2019-08-14,Turbidity,1.66
+HAT,2019-08-28,Dissolved Oxygen,5.56
+HAT,2019-08-28,Dissolved Oxygen Saturation,67.2
+HAT,2019-08-28,pH,4.98
+HAT,2019-08-28,Specific Conductance,49.1
+HAT,2019-08-28,"Temperature, Water",24.9
+HAT,2019-08-28,Turbidity,1.95
+HAT,2019-09-11,Dissolved Oxygen,6.13
+HAT,2019-09-11,Dissolved Oxygen Saturation,74.5
+HAT,2019-09-11,pH,5.37
+HAT,2019-09-11,Specific Conductance,57
+HAT,2019-09-11,"Temperature, Water",25.3
+HAT,2019-09-11,Turbidity,1.8
+HAT,2019-09-25,Dissolved Oxygen,6.28
+HAT,2019-09-25,Dissolved Oxygen Saturation,72.9
+HAT,2019-09-25,pH,6.69
+HAT,2019-09-25,Specific Conductance,74.5
+HAT,2019-09-25,"Temperature, Water",22.7
+HAT,2019-09-25,Turbidity,1.78
+HAT,2019-10-09,Dissolved Oxygen,6.96
+HAT,2019-10-09,Dissolved Oxygen Saturation,81.3
+HAT,2019-10-09,pH,6.49
+HAT,2019-10-09,Specific Conductance,89.7
+HAT,2019-10-09,"Temperature, Water",23.1
+HAT,2019-10-09,Turbidity,2.25
+HAT,2019-10-23,Dissolved Oxygen,7.47
+HAT,2019-10-23,Dissolved Oxygen Saturation,83.8
+HAT,2019-10-23,pH,7.16
+HAT,2019-10-23,Specific Conductance,86.3
+HAT,2019-10-23,"Temperature, Water",21
+HAT,2019-10-23,Turbidity,1.94
+HAT,2019-11-06,Dissolved Oxygen,6.57
+HAT,2019-11-06,Dissolved Oxygen Saturation,73.4
+HAT,2019-11-06,pH,7.3
+HAT,2019-11-06,Specific Conductance,134.8
+HAT,2019-11-06,"Temperature, Water",20.7
+HAT,2019-11-06,Turbidity,4.73
+HAT,2019-11-20,Dissolved Oxygen,9.74
+HAT,2019-11-20,Dissolved Oxygen Saturation,90.9
+HAT,2019-11-20,pH,7.56
+HAT,2019-11-20,Specific Conductance,111.6
+HAT,2019-11-20,"Temperature, Water",12.2
+HAT,2019-11-20,Turbidity,1.42
+HAT,2019-12-17,Dissolved Oxygen,7.61
+HAT,2019-12-17,Dissolved Oxygen Saturation,78.8
+HAT,2019-12-17,pH,6.94
+HAT,2019-12-17,Specific Conductance,118.4
+HAT,2019-12-17,"Temperature, Water",17
+HAT,2019-12-17,Turbidity,1.54
+HAT,2020-01-10,Dissolved Oxygen,9.28
+HAT,2020-01-10,Dissolved Oxygen Saturation,89.9
+HAT,2020-01-10,pH,7.51
+HAT,2020-01-10,Specific Conductance,91.8
+HAT,2020-01-10,"Temperature, Water",13.9
+HAT,2020-01-10,Turbidity,0.69
+HAT,2020-02-12,Dissolved Oxygen,7.68
+HAT,2020-02-12,Dissolved Oxygen Saturation,83.1
+HAT,2020-02-12,pH,6.89
+HAT,2020-02-12,Specific Conductance,106.7
+HAT,2020-02-12,"Temperature, Water",19.2
+HAT,2020-02-12,Turbidity,2.77
+HAT,2020-02-28,Dissolved Oxygen,8.89
+HAT,2020-02-28,Dissolved Oxygen Saturation,82.7
+HAT,2020-02-28,pH,6.78
+HAT,2020-02-28,Specific Conductance,108.1
+HAT,2020-02-28,"Temperature, Water",12.1
+HAT,2020-02-28,Turbidity,1.97
+HAT,2020-03-12,Dissolved Oxygen,7.61
+HAT,2020-03-12,Dissolved Oxygen Saturation,82.3
+HAT,2020-03-12,pH,6.8
+HAT,2020-03-12,Specific Conductance,118.9
+HAT,2020-03-12,"Temperature, Water",19.2
+HAT,2020-03-12,Turbidity,1.32
+HAT,2020-05-12,Dissolved Oxygen,7.76
+HAT,2020-05-12,Dissolved Oxygen Saturation,83.7
+HAT,2020-05-12,pH,7.28
+HAT,2020-05-12,Specific Conductance,163.5
+HAT,2020-05-12,"Temperature, Water",19
+HAT,2020-05-12,Turbidity,1.4
+HAT,2020-06-26,Dissolved Oxygen,6.1
+HAT,2020-06-26,Dissolved Oxygen Saturation,74.2
+HAT,2020-06-26,pH,5.63
+HAT,2020-06-26,Specific Conductance,65.7
+HAT,2020-06-26,"Temperature, Water",25.2
+HAT,2020-06-26,Turbidity,
+HAT,2020-07-16,Dissolved Oxygen,6.45
+HAT,2020-07-16,Dissolved Oxygen Saturation,76.8
+HAT,2020-07-16,pH,6.56
+HAT,2020-07-16,Specific Conductance,74.7
+HAT,2020-07-16,"Temperature, Water",24.1
+HAT,2020-07-16,Turbidity,5.1
+HAT,2020-07-28,Dissolved Oxygen,6.35
+HAT,2020-07-28,Dissolved Oxygen Saturation,76.2
+HAT,2020-07-28,pH,6.81
+HAT,2020-07-28,Specific Conductance,100.8
+HAT,2020-07-28,"Temperature, Water",24.5
+HAT,2020-07-28,Turbidity,2.02
+HAT,2020-08-14,Dissolved Oxygen,6.88
+HAT,2020-08-14,Dissolved Oxygen Saturation,81.4
+HAT,2020-08-14,pH,7.38
+HAT,2020-08-14,Specific Conductance,83
+HAT,2020-08-14,"Temperature, Water",23.7
+HAT,2020-08-14,Turbidity,1.34
+HAT,2020-08-24,Dissolved Oxygen,6.25
+HAT,2020-08-24,Dissolved Oxygen Saturation,75.4
+HAT,2020-08-24,pH,5.8
+HAT,2020-08-24,Specific Conductance,69.3
+HAT,2020-08-24,"Temperature, Water",24.5
+HAT,2020-08-24,Turbidity,2.14
+HAT,2020-09-10,Dissolved Oxygen,7.05
+HAT,2020-09-10,Dissolved Oxygen Saturation,80.9
+HAT,2020-09-10,pH,6.32
+HAT,2020-09-10,Specific Conductance,68.8
+HAT,2020-09-10,"Temperature, Water",21.8
+HAT,2020-09-10,Turbidity,2.59
+HAT,2020-09-24,Dissolved Oxygen,7.13
+HAT,2020-09-24,Dissolved Oxygen Saturation,75.2
+HAT,2020-09-24,pH,5.54
+HAT,2020-09-24,Specific Conductance,67.5
+HAT,2020-09-24,"Temperature, Water",17.8
+HAT,2020-09-24,Turbidity,1.82
+HAT,2020-10-08,Dissolved Oxygen,7.59
+HAT,2020-10-08,Dissolved Oxygen Saturation,81.3
+HAT,2020-10-08,pH,7.04
+HAT,2020-10-08,Specific Conductance,78.8
+HAT,2020-10-08,"Temperature, Water",18.3
+HAT,2020-10-08,Turbidity,1.67
+HAT,2020-10-22,Dissolved Oxygen,7.63
+HAT,2020-10-22,Dissolved Oxygen Saturation,79.3
+HAT,2020-10-22,pH,7.31
+HAT,2020-10-22,Specific Conductance,80.2
+HAT,2020-10-22,"Temperature, Water",17.2
+HAT,2020-10-22,Turbidity,1.68
+HOGDN,2018-10-18,Dissolved Oxygen,4
+HOGDN,2018-10-18,Dissolved Oxygen Saturation,48.9
+HOGDN,2018-10-18,pH,7.38
+HOGDN,2018-10-18,Specific Conductance,291.9
+HOGDN,2018-10-18,"Temperature, Water",25.61
+HOGDN,2018-10-31,Dissolved Oxygen,7.22
+HOGDN,2018-10-31,Dissolved Oxygen Saturation,74.3
+HOGDN,2018-10-31,pH,7.46
+HOGDN,2018-10-31,Specific Conductance,290.7
+HOGDN,2018-10-31,"Temperature, Water",16.9
+HOGDN,2018-10-31,Turbidity,4
+HOGDN,2018-11-08,Dissolved Oxygen,6.25
+HOGDN,2018-11-08,Dissolved Oxygen Saturation,74.2
+HOGDN,2018-11-08,pH,7.43
+HOGDN,2018-11-08,Specific Conductance,293.3
+HOGDN,2018-11-08,"Temperature, Water",23.8
+HOGDN,2018-11-08,Turbidity,2.05
+HOGDN,2018-11-13,Dissolved Oxygen,5.67
+HOGDN,2018-11-13,Dissolved Oxygen Saturation,65.3
+HOGDN,2018-11-13,pH,7.3
+HOGDN,2018-11-13,Specific Conductance,271
+HOGDN,2018-11-13,"Temperature, Water",22.3
+HOGDN,2018-11-13,Turbidity,1.75
+HOGDN,2018-11-29,Dissolved Oxygen,9.55
+HOGDN,2018-11-29,Dissolved Oxygen Saturation,83.5
+HOGDN,2018-11-29,pH,7.01
+HOGDN,2018-11-29,Specific Conductance,258.3
+HOGDN,2018-11-29,"Temperature, Water",9.4
+HOGDN,2018-11-29,Turbidity,1.84
+HOGDN,2018-12-05,Dissolved Oxygen,6.85
+HOGDN,2018-12-05,Dissolved Oxygen Saturation,64.8
+HOGDN,2018-12-05,pH,7.12
+HOGDN,2018-12-05,Specific Conductance,214
+HOGDN,2018-12-05,"Temperature, Water",12.7
+HOGDN,2018-12-05,Turbidity,1.71
+HOGDN,2018-12-20,Dissolved Oxygen,6.63
+HOGDN,2018-12-20,Dissolved Oxygen Saturation,66.8
+HOGDN,2018-12-20,pH,7.37
+HOGDN,2018-12-20,Specific Conductance,170.8
+HOGDN,2018-12-20,"Temperature, Water",15.7
+HOGDN,2018-12-20,Turbidity,2.73
+HOGDN,2019-01-04,Dissolved Oxygen,4.05
+HOGDN,2019-01-04,Dissolved Oxygen Saturation,44.6
+HOGDN,2019-01-04,pH,6.75
+HOGDN,2019-01-04,Specific Conductance,235.6
+HOGDN,2019-01-04,"Temperature, Water",20.1
+HOGDN,2019-01-04,Turbidity,1.18
+HOGDN,2019-01-18,Dissolved Oxygen,8.23
+HOGDN,2019-01-18,Dissolved Oxygen Saturation,75.1
+HOGDN,2019-01-18,pH,6.93
+HOGDN,2019-01-18,Specific Conductance,254
+HOGDN,2019-01-18,"Temperature, Water",11.2
+HOGDN,2019-01-18,Turbidity,1.15
+HOGDN,2019-01-25,Dissolved Oxygen,6.6
+HOGDN,2019-01-25,Dissolved Oxygen Saturation,62
+HOGDN,2019-01-25,pH,6.9
+HOGDN,2019-01-25,Specific Conductance,137.9
+HOGDN,2019-01-25,"Temperature, Water",12.5
+HOGDN,2019-01-25,Turbidity,5.03
+HOGDN,2019-02-06,Dissolved Oxygen,4.82
+HOGDN,2019-02-06,Dissolved Oxygen Saturation,49.7
+HOGDN,2019-02-06,pH,6.9
+HOGDN,2019-02-06,Specific Conductance,227.3
+HOGDN,2019-02-06,"Temperature, Water",16.7
+HOGDN,2019-02-06,Turbidity,1.52
+HOGDN,2019-02-20,Dissolved Oxygen,7.74
+HOGDN,2019-02-20,Dissolved Oxygen Saturation,85.1
+HOGDN,2019-02-20,pH,7.28
+HOGDN,2019-02-20,Specific Conductance,259.5
+HOGDN,2019-02-20,"Temperature, Water",19.9
+HOGDN,2019-02-20,Turbidity,1.26
+HOGDN,2019-03-22,Dissolved Oxygen,8.7
+HOGDN,2019-03-22,Dissolved Oxygen Saturation,83.2
+HOGDN,2019-03-22,pH,7.08
+HOGDN,2019-03-22,Specific Conductance,283.5
+HOGDN,2019-03-22,"Temperature, Water",13.2
+HOGDN,2019-03-22,Turbidity,1.32
+HOGDN,2019-04-03,Dissolved Oxygen,7.5
+HOGDN,2019-04-03,Dissolved Oxygen Saturation,78.5
+HOGDN,2019-04-03,pH,7.14
+HOGDN,2019-04-03,Specific Conductance,242.5
+HOGDN,2019-04-03,"Temperature, Water",17.5
+HOGDN,2019-04-03,Turbidity,2.27
+HOGDN,2019-04-24,Dissolved Oxygen,7.04
+HOGDN,2019-04-24,Dissolved Oxygen Saturation,74.9
+HOGDN,2019-04-24,pH,7.25
+HOGDN,2019-04-24,Specific Conductance,266.5
+HOGDN,2019-04-24,"Temperature, Water",18.3
+HOGDN,2019-04-24,Turbidity,5.99
+HOGDN,2019-05-07,Dissolved Oxygen,5.66
+HOGDN,2019-05-07,Dissolved Oxygen Saturation,66.1
+HOGDN,2019-05-07,pH,7.18
+HOGDN,2019-05-07,Specific Conductance,231.1
+HOGDN,2019-05-07,"Temperature, Water",22.9
+HOGDN,2019-05-07,Turbidity,2.7
+HOGDN,2019-05-24,Dissolved Oxygen,6.14
+HOGDN,2019-05-24,Dissolved Oxygen Saturation,72.4
+HOGDN,2019-05-24,pH,7.33
+HOGDN,2019-05-24,Specific Conductance,305.3
+HOGDN,2019-05-24,"Temperature, Water",23.6
+HOGDN,2019-05-24,Turbidity,6.52
+HOGDN,2019-06-06,Dissolved Oxygen,4.59
+HOGDN,2019-06-06,Dissolved Oxygen Saturation,55.7
+HOGDN,2019-06-06,pH,6.97
+HOGDN,2019-06-06,Specific Conductance,223.5
+HOGDN,2019-06-06,"Temperature, Water",25
+HOGDN,2019-06-06,Turbidity,4.26
+HOGDN,2019-06-18,Dissolved Oxygen,4.38
+HOGDN,2019-06-18,Dissolved Oxygen Saturation,52.4
+HOGDN,2019-06-18,pH,6.77
+HOGDN,2019-06-18,Specific Conductance,155.3
+HOGDN,2019-06-18,"Temperature, Water",24.3
+HOGDN,2019-06-18,Turbidity,5.3
+HOGDN,2019-07-09,Dissolved Oxygen,5.14
+HOGDN,2019-07-09,Dissolved Oxygen Saturation,64.7
+HOGDN,2019-07-09,pH,7.14
+HOGDN,2019-07-09,Specific Conductance,240.8
+HOGDN,2019-07-09,"Temperature, Water",27.1
+HOGDN,2019-07-09,Turbidity,2.38
+HOGDN,2019-07-29,Dissolved Oxygen,4.7
+HOGDN,2019-07-29,Dissolved Oxygen Saturation,56
+HOGDN,2019-07-29,pH,6.92
+HOGDN,2019-07-29,Specific Conductance,198.5
+HOGDN,2019-07-29,"Temperature, Water",24.1
+HOGDN,2019-07-29,Turbidity,2.38
+HOGDN,2019-08-14,Dissolved Oxygen,4.44
+HOGDN,2019-08-14,Dissolved Oxygen Saturation,56.2
+HOGDN,2019-08-14,pH,6.84
+HOGDN,2019-08-14,Specific Conductance,184.8
+HOGDN,2019-08-14,"Temperature, Water",27.4
+HOGDN,2019-08-14,Turbidity,2.16
+HOGDN,2019-08-28,Dissolved Oxygen,3.01
+HOGDN,2019-08-28,Dissolved Oxygen Saturation,36.8
+HOGDN,2019-08-28,pH,6.8
+HOGDN,2019-08-28,Specific Conductance,144
+HOGDN,2019-08-28,"Temperature, Water",25.5
+HOGDN,2019-08-28,Turbidity,6.13
+HOGDN,2019-09-11,Dissolved Oxygen,1.78
+HOGDN,2019-09-11,Dissolved Oxygen Saturation,21.9
+HOGDN,2019-09-11,pH,7.01
+HOGDN,2019-09-11,Specific Conductance,249.4
+HOGDN,2019-09-11,"Temperature, Water",25.6
+HOGDN,2019-09-11,Turbidity,1.83
+HOGDN,2019-09-25,Dissolved Oxygen,6.14
+HOGDN,2019-09-25,Dissolved Oxygen Saturation,72.2
+HOGDN,2019-09-25,pH,7.42
+HOGDN,2019-09-25,Specific Conductance,286.4
+HOGDN,2019-09-25,"Temperature, Water",23.4
+HOGDN,2019-09-25,Turbidity,2.78
+HOGDN,2019-10-09,Dissolved Oxygen,4.38
+HOGDN,2019-10-09,Dissolved Oxygen Saturation,51.4
+HOGDN,2019-10-09,pH,6.88
+HOGDN,2019-10-09,Specific Conductance,207
+HOGDN,2019-10-09,"Temperature, Water",23.4
+HOGDN,2019-10-09,Turbidity,1.89
+HOGDN,2019-10-23,Dissolved Oxygen,5.79
+HOGDN,2019-10-23,Dissolved Oxygen Saturation,63.4
+HOGDN,2019-10-23,pH,7.06
+HOGDN,2019-10-23,Specific Conductance,216.5
+HOGDN,2019-10-23,"Temperature, Water",19.6
+HOGDN,2019-10-23,Turbidity,2.84
+HOGDN,2019-11-06,Dissolved Oxygen,6.92
+HOGDN,2019-11-06,Dissolved Oxygen Saturation,78.7
+HOGDN,2019-11-06,pH,7.36
+HOGDN,2019-11-06,Specific Conductance,297.3
+HOGDN,2019-11-06,"Temperature, Water",21.6
+HOGDN,2019-11-06,Turbidity,4.28
+HOGDN,2019-11-20,Dissolved Oxygen,9.33
+HOGDN,2019-11-20,Dissolved Oxygen Saturation,88.4
+HOGDN,2019-11-20,pH,7.51
+HOGDN,2019-11-20,Specific Conductance,260.2
+HOGDN,2019-11-20,"Temperature, Water",12.9
+HOGDN,2019-11-20,Turbidity,2.9
+HOGDN,2019-12-17,Dissolved Oxygen,4.83
+HOGDN,2019-12-17,Dissolved Oxygen Saturation,52.2
+HOGDN,2019-12-17,pH,6.76
+HOGDN,2019-12-17,Specific Conductance,221.4
+HOGDN,2019-12-17,"Temperature, Water",19.1
+HOGDN,2019-12-17,Turbidity,1.86
+HOGDN,2020-01-10,Dissolved Oxygen,7.33
+HOGDN,2020-01-10,Dissolved Oxygen Saturation,76.8
+HOGDN,2020-01-10,pH,7.17
+HOGDN,2020-01-10,Specific Conductance,255
+HOGDN,2020-01-10,"Temperature, Water",17.5
+HOGDN,2020-01-10,Turbidity,2.36
+HOGDN,2020-02-12,Dissolved Oxygen,6.9
+HOGDN,2020-02-12,Dissolved Oxygen Saturation,77.3
+HOGDN,2020-02-12,pH,7.4
+HOGDN,2020-02-12,Specific Conductance,262.6
+HOGDN,2020-02-12,"Temperature, Water",20.9
+HOGDN,2020-02-12,Turbidity,3.56
+HOGDN,2020-02-28,Dissolved Oxygen,8.17
+HOGDN,2020-02-28,Dissolved Oxygen Saturation,72.7
+HOGDN,2020-02-28,pH,7.16
+HOGDN,2020-02-28,Specific Conductance,199
+HOGDN,2020-02-28,"Temperature, Water",10.1
+HOGDN,2020-02-28,Turbidity,2.34
+HOGDN,2020-03-12,Dissolved Oxygen,8.05
+HOGDN,2020-03-12,Dissolved Oxygen Saturation,85.2
+HOGDN,2020-03-12,pH,7.46
+HOGDN,2020-03-12,Specific Conductance,284
+HOGDN,2020-03-12,"Temperature, Water",18
+HOGDN,2020-03-12,Turbidity,3.65
+HOGDN,2020-05-12,Dissolved Oxygen,7.22
+HOGDN,2020-05-12,Dissolved Oxygen Saturation,75.7
+HOGDN,2020-05-12,pH,7.18
+HOGDN,2020-05-12,Specific Conductance,226.8
+HOGDN,2020-05-12,"Temperature, Water",17.6
+HOGDN,2020-05-12,Turbidity,7.01
+HOGDN,2020-06-26,Dissolved Oxygen,5.85
+HOGDN,2020-06-26,Dissolved Oxygen Saturation,71.4
+HOGDN,2020-06-26,pH,7.39
+HOGDN,2020-06-26,Specific Conductance,257.4
+HOGDN,2020-06-26,"Temperature, Water",25.5
+HOGDN,2020-06-26,Turbidity,
+HOGDN,2020-07-16,Dissolved Oxygen,4.84
+HOGDN,2020-07-16,Dissolved Oxygen Saturation,58.4
+HOGDN,2020-07-16,pH,6.87
+HOGDN,2020-07-16,Specific Conductance,106.2
+HOGDN,2020-07-16,"Temperature, Water",24.8
+HOGDN,2020-07-16,Turbidity,13.44
+HOGDN,2020-07-28,Dissolved Oxygen,6.8
+HOGDN,2020-07-28,Dissolved Oxygen Saturation,81.7
+HOGDN,2020-07-28,pH,7.58
+HOGDN,2020-07-28,Specific Conductance,230.1
+HOGDN,2020-07-28,"Temperature, Water",24.6
+HOGDN,2020-07-28,Turbidity,20.75
+HOGDN,2020-08-14,Dissolved Oxygen,6.82
+HOGDN,2020-08-14,Dissolved Oxygen Saturation,84.6
+HOGDN,2020-08-14,pH,7.69
+HOGDN,2020-08-14,Specific Conductance,263.3
+HOGDN,2020-08-14,"Temperature, Water",25.1
+HOGDN,2020-08-14,Turbidity,1.95
+HOGDN,2020-08-24,Dissolved Oxygen,4.57
+HOGDN,2020-08-24,Dissolved Oxygen Saturation,54.5
+HOGDN,2020-08-24,pH,7.18
+HOGDN,2020-08-24,Specific Conductance,177.3
+HOGDN,2020-08-24,"Temperature, Water",24
+HOGDN,2020-08-24,Turbidity,2.23
+HOGDN,2020-09-10,Dissolved Oxygen,5.44
+HOGDN,2020-09-10,Dissolved Oxygen Saturation,63.9
+HOGDN,2020-09-10,pH,7.1
+HOGDN,2020-09-10,Specific Conductance,108
+HOGDN,2020-09-10,"Temperature, Water",22.4
+HOGDN,2020-09-10,Turbidity,14.17
+HOGDN,2020-09-24,Dissolved Oxygen,5.66
+HOGDN,2020-09-24,Dissolved Oxygen Saturation,60.4
+HOGDN,2020-09-24,pH,7.37
+HOGDN,2020-09-24,Specific Conductance,230.5
+HOGDN,2020-09-24,"Temperature, Water",18.3
+HOGDN,2020-09-24,Turbidity,3.72
+HOGDN,2020-10-08,Dissolved Oxygen,5.5
+HOGDN,2020-10-08,Dissolved Oxygen Saturation,59.4
+HOGDN,2020-10-08,pH,7.4
+HOGDN,2020-10-08,Specific Conductance,244.3
+HOGDN,2020-10-08,"Temperature, Water",19.1
+HOGDN,2020-10-08,Turbidity,4.52
+HOGDN,2020-10-22,Dissolved Oxygen,5.23
+HOGDN,2020-10-22,Dissolved Oxygen Saturation,54.9
+HOGDN,2020-10-22,pH,7.4
+HOGDN,2020-10-22,Specific Conductance,222.8
+HOGDN,2020-10-22,"Temperature, Water",17.7
+HOGDN,2020-10-22,Turbidity,8.58
+HOGNW16,2018-09-14,Dissolved Oxygen,7.46
+HOGNW16,2018-09-14,Dissolved Oxygen Saturation,92.3
+HOGNW16,2018-09-14,pH,7.94
+HOGNW16,2018-09-14,"Temperature, Water",26.2
+HOGNW16,2018-09-14,Turbidity,1
+HOGNW16,2018-10-18,Dissolved Oxygen,7.59
+HOGNW16,2018-10-18,Dissolved Oxygen Saturation,91
+HOGNW16,2018-10-18,pH,7.95
+HOGNW16,2018-10-18,Specific Conductance,290.2
+HOGNW16,2018-10-18,"Temperature, Water",24.58
+HOGNW16,2018-10-31,Dissolved Oxygen,8.69
+HOGNW16,2018-10-31,Dissolved Oxygen Saturation,91.3
+HOGNW16,2018-10-31,pH,7.84
+HOGNW16,2018-10-31,Specific Conductance,287
+HOGNW16,2018-10-31,"Temperature, Water",17.8
+HOGNW16,2018-10-31,Turbidity,1.8
+HOGNW16,2018-11-08,Dissolved Oxygen,7.83
+HOGNW16,2018-11-08,Dissolved Oxygen Saturation,91.8
+HOGNW16,2018-11-08,pH,7.86
+HOGNW16,2018-11-08,Specific Conductance,288.4
+HOGNW16,2018-11-08,"Temperature, Water",23.3
+HOGNW16,2018-11-08,Turbidity,0.96
+HOGNW16,2018-11-13,Dissolved Oxygen,7.9
+HOGNW16,2018-11-13,Dissolved Oxygen Saturation,92.1
+HOGNW16,2018-11-13,pH,7.9
+HOGNW16,2018-11-13,Specific Conductance,287.7
+HOGNW16,2018-11-13,"Temperature, Water",22.8
+HOGNW16,2018-11-13,Turbidity,1.45
+HOGNW16,2018-11-29,Dissolved Oxygen,10.16
+HOGNW16,2018-11-29,Dissolved Oxygen Saturation,95
+HOGNW16,2018-11-29,pH,7.86
+HOGNW16,2018-11-29,Specific Conductance,278.8
+HOGNW16,2018-11-29,"Temperature, Water",12.3
+HOGNW16,2018-11-29,Turbidity,1.75
+HOGNW16,2018-12-05,Dissolved Oxygen,9.65
+HOGNW16,2018-12-05,Dissolved Oxygen Saturation,93.8
+HOGNW16,2018-12-05,pH,7.87
+HOGNW16,2018-12-05,Specific Conductance,257.8
+HOGNW16,2018-12-05,"Temperature, Water",14
+HOGNW16,2018-12-05,Turbidity,1.9
+HOGNW16,2018-12-20,Dissolved Oxygen,8.81
+HOGNW16,2018-12-20,Dissolved Oxygen Saturation,91.3
+HOGNW16,2018-12-20,pH,7.35
+HOGNW16,2018-12-20,Specific Conductance,127.6
+HOGNW16,2018-12-20,"Temperature, Water",17.1
+HOGNW16,2018-12-20,Turbidity,30.47
+HOGNW16,2019-01-04,Dissolved Oxygen,8.26
+HOGNW16,2019-01-04,Dissolved Oxygen Saturation,91.6
+HOGNW16,2019-01-04,pH,7.52
+HOGNW16,2019-01-04,Specific Conductance,247.1
+HOGNW16,2019-01-04,"Temperature, Water",20.4
+HOGNW16,2019-01-04,Turbidity,2.89
+HOGNW16,2019-01-18,Dissolved Oxygen,9.93
+HOGNW16,2019-01-18,Dissolved Oxygen Saturation,95.7
+HOGNW16,2019-01-18,pH,7.74
+HOGNW16,2019-01-18,Specific Conductance,262.9
+HOGNW16,2019-01-18,"Temperature, Water",13.6
+HOGNW16,2019-01-18,Turbidity,1.87
+HOGNW16,2019-01-25,Dissolved Oxygen,10.01
+HOGNW16,2019-01-25,Dissolved Oxygen Saturation,96.1
+HOGNW16,2019-01-25,pH,7.55
+HOGNW16,2019-01-25,Specific Conductance,162.1
+HOGNW16,2019-01-25,"Temperature, Water",13.4
+HOGNW16,2019-01-25,Turbidity,7.5
+HOGNW16,2019-04-03,Dissolved Oxygen,8.85
+HOGNW16,2019-04-03,Dissolved Oxygen Saturation,94.8
+HOGNW16,2019-04-03,pH,7.74
+HOGNW16,2019-04-03,Specific Conductance,269.1
+HOGNW16,2019-04-03,"Temperature, Water",18.6
+HOGNW16,2019-04-03,Turbidity,1.44
+HOGNW16,2019-04-24,Dissolved Oxygen,8.5
+HOGNW16,2019-04-24,Dissolved Oxygen Saturation,93.4
+HOGNW16,2019-04-24,pH,7.74
+HOGNW16,2019-04-24,Specific Conductance,273
+HOGNW16,2019-04-24,"Temperature, Water",19.9
+HOGNW16,2019-04-24,Turbidity,1.3
+HOGNW16,2019-05-07,Dissolved Oxygen,7.73
+HOGNW16,2019-05-07,Dissolved Oxygen Saturation,91.1
+HOGNW16,2019-05-07,pH,7.63
+HOGNW16,2019-05-07,Specific Conductance,249.8
+HOGNW16,2019-05-07,"Temperature, Water",23.6
+HOGNW16,2019-05-07,Turbidity,3.56
+HOGNW16,2019-05-24,Dissolved Oxygen,8.17
+HOGNW16,2019-05-24,Dissolved Oxygen Saturation,95.9
+HOGNW16,2019-05-24,pH,7.75
+HOGNW16,2019-05-24,Specific Conductance,294.2
+HOGNW16,2019-05-24,"Temperature, Water",23.1
+HOGNW16,2019-05-24,Turbidity,2.8
+HOGNW16,2019-06-06,Dissolved Oxygen,7.17
+HOGNW16,2019-06-06,Dissolved Oxygen Saturation,86.6
+HOGNW16,2019-06-06,pH,7.7
+HOGNW16,2019-06-06,Specific Conductance,271.1
+HOGNW16,2019-06-06,"Temperature, Water",24.8
+HOGNW16,2019-06-06,Turbidity,0.83
+HOGNW16,2019-06-18,Dissolved Oxygen,7.42
+HOGNW16,2019-06-18,Dissolved Oxygen Saturation,89.4
+HOGNW16,2019-06-18,pH,7.42
+HOGNW16,2019-06-18,Specific Conductance,215.8
+HOGNW16,2019-06-18,"Temperature, Water",24.7
+HOGNW16,2019-06-18,Turbidity,4.43
+HOGNW16,2019-07-09,Dissolved Oxygen,7.42
+HOGNW16,2019-07-09,Dissolved Oxygen Saturation,92.4
+HOGNW16,2019-07-09,pH,7.56
+HOGNW16,2019-07-09,Specific Conductance,271.6
+HOGNW16,2019-07-09,"Temperature, Water",26.5
+HOGNW16,2019-07-09,Turbidity,2.49
+HOGNW16,2019-07-29,Dissolved Oxygen,7.83
+HOGNW16,2019-07-29,Dissolved Oxygen Saturation,94.2
+HOGNW16,2019-07-29,pH,7.47
+HOGNW16,2019-07-29,Specific Conductance,197.4
+HOGNW16,2019-07-29,"Temperature, Water",24.7
+HOGNW16,2019-07-29,Turbidity,5.06
+HOGNW16,2019-08-14,Dissolved Oxygen,7.39
+HOGNW16,2019-08-14,Dissolved Oxygen Saturation,92.8
+HOGNW16,2019-08-14,pH,7.32
+HOGNW16,2019-08-14,Specific Conductance,187.5
+HOGNW16,2019-08-14,"Temperature, Water",27.1
+HOGNW16,2019-08-14,Turbidity,4.7
+HOGNW16,2019-08-28,Dissolved Oxygen,7.57
+HOGNW16,2019-08-28,Dissolved Oxygen Saturation,92.5
+HOGNW16,2019-08-28,pH,7.22
+HOGNW16,2019-08-28,Specific Conductance,167
+HOGNW16,2019-08-28,"Temperature, Water",25.5
+HOGNW16,2019-08-28,Turbidity,8.42
+HOGNW16,2019-09-11,Dissolved Oxygen,7.85
+HOGNW16,2019-09-11,Dissolved Oxygen Saturation,94.1
+HOGNW16,2019-09-11,pH,7.64
+HOGNW16,2019-09-11,Specific Conductance,265.3
+HOGNW16,2019-09-11,"Temperature, Water",24.5
+HOGNW16,2019-09-11,Turbidity,2.98
+HOGNW16,2019-09-25,Dissolved Oxygen,7.97
+HOGNW16,2019-09-25,Dissolved Oxygen Saturation,93.3
+HOGNW16,2019-09-25,pH,7.77
+HOGNW16,2019-09-25,Specific Conductance,284.2
+HOGNW16,2019-09-25,"Temperature, Water",23.1
+HOGNW16,2019-09-25,Turbidity,2.58
+HOGNW16,2019-10-09,Dissolved Oxygen,7.81
+HOGNW16,2019-10-09,Dissolved Oxygen Saturation,91.8
+HOGNW16,2019-10-09,pH,7.58
+HOGNW16,2019-10-09,Specific Conductance,246.8
+HOGNW16,2019-10-09,"Temperature, Water",23.4
+HOGNW16,2019-10-09,Turbidity,2.23
+HOGNW16,2019-10-23,Dissolved Oxygen,8.54
+HOGNW16,2019-10-23,Dissolved Oxygen Saturation,94
+HOGNW16,2019-10-23,pH,7.58
+HOGNW16,2019-10-23,Specific Conductance,245.1
+HOGNW16,2019-10-23,"Temperature, Water",20
+HOGNW16,2019-10-23,Turbidity,2.21
+HOGNW16,2019-11-06,Dissolved Oxygen,8.3
+HOGNW16,2019-11-06,Dissolved Oxygen Saturation,94.7
+HOGNW16,2019-11-06,pH,7.61
+HOGNW16,2019-11-06,Specific Conductance,288.3
+HOGNW16,2019-11-06,"Temperature, Water",21.8
+HOGNW16,2019-11-06,Turbidity,1.52
+HOGNW16,2019-11-20,Dissolved Oxygen,9.9
+HOGNW16,2019-11-20,Dissolved Oxygen Saturation,97.6
+HOGNW16,2019-11-20,pH,7.75
+HOGNW16,2019-11-20,Specific Conductance,278.3
+HOGNW16,2019-11-20,"Temperature, Water",14.7
+HOGNW16,2019-11-20,Turbidity,1.3
+HOGNW16,2019-12-06,Dissolved Oxygen,10.16
+HOGNW16,2019-12-06,Dissolved Oxygen Saturation,93.8
+HOGNW16,2019-12-06,pH,7.77
+HOGNW16,2019-12-06,Specific Conductance,291.4
+HOGNW16,2019-12-06,"Temperature, Water",11.7
+HOGNW16,2019-12-06,Turbidity,0.91
+HOGNW16,2019-12-17,Dissolved Oxygen,8.1
+HOGNW16,2019-12-17,Dissolved Oxygen Saturation,89.1
+HOGNW16,2019-12-17,pH,7.32
+HOGNW16,2019-12-17,Specific Conductance,274.1
+HOGNW16,2019-12-17,"Temperature, Water",20
+HOGNW16,2019-12-17,Turbidity,1.31
+HOGNW16,2020-01-10,Dissolved Oxygen,8.97
+HOGNW16,2020-01-10,Dissolved Oxygen Saturation,95.3
+HOGNW16,2020-01-10,pH,7.46
+HOGNW16,2020-01-10,Specific Conductance,268.2
+HOGNW16,2020-01-10,"Temperature, Water",18.2
+HOGNW16,2020-01-10,Turbidity,1.75
+HOGNW16,2020-02-12,Dissolved Oxygen,8.29
+HOGNW16,2020-02-12,Dissolved Oxygen Saturation,94.1
+HOGNW16,2020-02-12,pH,7.89
+HOGNW16,2020-02-12,Specific Conductance,286.8
+HOGNW16,2020-02-12,"Temperature, Water",21.5
+HOGNW16,2020-02-12,Turbidity,1
+HOGNW16,2020-02-28,Dissolved Oxygen,10.21
+HOGNW16,2020-02-28,Dissolved Oxygen Saturation,94
+HOGNW16,2020-02-28,pH,7.7
+HOGNW16,2020-02-28,Specific Conductance,246.2
+HOGNW16,2020-02-28,"Temperature, Water",11.6
+HOGNW16,2020-02-28,Turbidity,2.74
+HOGNW16,2020-03-12,Dissolved Oxygen,8.82
+HOGNW16,2020-03-12,Dissolved Oxygen Saturation,96.3
+HOGNW16,2020-03-12,pH,7.84
+HOGNW16,2020-03-12,Specific Conductance,289.3
+HOGNW16,2020-03-12,"Temperature, Water",19.6
+HOGNW16,2020-03-12,Turbidity,1.81
+HOGNW16,2020-05-12,Dissolved Oxygen,8.69
+HOGNW16,2020-05-12,Dissolved Oxygen Saturation,93.6
+HOGNW16,2020-05-12,pH,7.68
+HOGNW16,2020-05-12,Specific Conductance,250.9
+HOGNW16,2020-05-12,"Temperature, Water",18.9
+HOGNW16,2020-05-12,Turbidity,2
+HOGNW16,2020-06-26,Dissolved Oxygen,7.69
+HOGNW16,2020-06-26,Dissolved Oxygen Saturation,93.1
+HOGNW16,2020-06-26,pH,7.83
+HOGNW16,2020-06-26,Specific Conductance,267.5
+HOGNW16,2020-06-26,"Temperature, Water",25
+HOGNW16,2020-06-26,Turbidity,
+HOGNW16,2020-07-16,Dissolved Oxygen,7.51
+HOGNW16,2020-07-16,Dissolved Oxygen Saturation,90.9
+HOGNW16,2020-07-16,pH,7.58
+HOGNW16,2020-07-16,Specific Conductance,167.2
+HOGNW16,2020-07-16,"Temperature, Water",25
+HOGNW16,2020-07-16,Turbidity,6.97
+HOGNW16,2020-07-28,Dissolved Oxygen,7.65
+HOGNW16,2020-07-28,Dissolved Oxygen Saturation,92.1
+HOGNW16,2020-07-28,pH,7.83
+HOGNW16,2020-07-28,Specific Conductance,272.4
+HOGNW16,2020-07-28,"Temperature, Water",24.7
+HOGNW16,2020-07-28,Turbidity,2.12
+HOGNW16,2020-08-14,Dissolved Oxygen,7.58
+HOGNW16,2020-08-14,Dissolved Oxygen Saturation,90.3
+HOGNW16,2020-08-14,pH,7.76
+HOGNW16,2020-08-14,Specific Conductance,260.1
+HOGNW16,2020-08-14,"Temperature, Water",24.1
+HOGNW16,2020-08-14,Turbidity,1.5
+HOGNW16,2020-08-24,Dissolved Oxygen,7.85
+HOGNW16,2020-08-24,Dissolved Oxygen Saturation,93.9
+HOGNW16,2020-08-24,pH,7.79
+HOGNW16,2020-08-24,Specific Conductance,212.6
+HOGNW16,2020-08-24,"Temperature, Water",24.1
+HOGNW16,2020-08-24,Turbidity,3.52
+HOGNW16,2020-09-10,Dissolved Oxygen,8.22
+HOGNW16,2020-09-10,Dissolved Oxygen Saturation,94.9
+HOGNW16,2020-09-10,pH,7.44
+HOGNW16,2020-09-10,Specific Conductance,158.5
+HOGNW16,2020-09-10,"Temperature, Water",22.4
+HOGNW16,2020-09-10,Turbidity,15.17
+HOGNW16,2020-09-24,Dissolved Oxygen,8.55
+HOGNW16,2020-09-24,Dissolved Oxygen Saturation,91.4
+HOGNW16,2020-09-24,pH,7.61
+HOGNW16,2020-09-24,Specific Conductance,232.7
+HOGNW16,2020-09-24,"Temperature, Water",18.5
+HOGNW16,2020-09-24,Turbidity,3.67
+HOGNW16,2020-10-08,Dissolved Oxygen,8.45
+HOGNW16,2020-10-08,Dissolved Oxygen Saturation,90.7
+HOGNW16,2020-10-08,pH,7.6
+HOGNW16,2020-10-08,Specific Conductance,262.6
+HOGNW16,2020-10-08,"Temperature, Water",18.7
+HOGNW16,2020-10-08,Turbidity,2.59
+HOGNW16,2020-10-22,Dissolved Oxygen,8.22
+HOGNW16,2020-10-22,Dissolved Oxygen Saturation,86
+HOGNW16,2020-10-22,pH,7.55
+HOGNW16,2020-10-22,Specific Conductance,238.9
+HOGNW16,2020-10-22,"Temperature, Water",17.5
+HOGNW16,2020-10-22,Turbidity,5.43
+POSNW16,2018-09-14,Dissolved Oxygen,7.87
+POSNW16,2018-09-14,Dissolved Oxygen Saturation,95.8
+POSNW16,2018-09-14,pH,7.92
+POSNW16,2018-09-14,"Temperature, Water",25.3
+POSNW16,2018-09-14,Turbidity,5.6
+POSNW16,2018-10-18,Dissolved Oxygen,8.03
+POSNW16,2018-10-18,Dissolved Oxygen Saturation,95.7
+POSNW16,2018-10-18,pH,7.97
+POSNW16,2018-10-18,Specific Conductance,284.4
+POSNW16,2018-10-18,"Temperature, Water",24.13
+POSNW16,2018-10-31,Dissolved Oxygen,9.1
+POSNW16,2018-10-31,Dissolved Oxygen Saturation,94.4
+POSNW16,2018-10-31,pH,7.81
+POSNW16,2018-10-31,Specific Conductance,286.5
+POSNW16,2018-10-31,"Temperature, Water",17.09
+POSNW16,2018-10-31,Turbidity,2.5
+POSNW16,2018-11-08,Dissolved Oxygen,8.39
+POSNW16,2018-11-08,Dissolved Oxygen Saturation,97.3
+POSNW16,2018-11-08,pH,7.88
+POSNW16,2018-11-08,Specific Conductance,278
+POSNW16,2018-11-08,"Temperature, Water",22.7
+POSNW16,2018-11-08,Turbidity,-0.05
+POSNW16,2018-11-13,Dissolved Oxygen,8.38
+POSNW16,2018-11-13,Dissolved Oxygen Saturation,96.2
+POSNW16,2018-11-13,pH,7.96
+POSNW16,2018-11-13,Specific Conductance,285.3
+POSNW16,2018-11-13,"Temperature, Water",22.2
+POSNW16,2018-11-13,Turbidity,1.22
+POSNW16,2018-11-29,Dissolved Oxygen,10.78
+POSNW16,2018-11-29,Dissolved Oxygen Saturation,99.3
+POSNW16,2018-11-29,pH,7.87
+POSNW16,2018-11-29,Specific Conductance,271.3
+POSNW16,2018-11-29,"Temperature, Water",11.6
+POSNW16,2018-11-29,Turbidity,1.18
+POSNW16,2018-12-05,Dissolved Oxygen,9.98
+POSNW16,2018-12-05,Dissolved Oxygen Saturation,96.4
+POSNW16,2018-12-05,pH,7.83
+POSNW16,2018-12-05,Specific Conductance,241.5
+POSNW16,2018-12-05,"Temperature, Water",13.8
+POSNW16,2018-12-05,Turbidity,2.08
+POSNW16,2018-12-20,Dissolved Oxygen,8.71
+POSNW16,2018-12-20,Dissolved Oxygen Saturation,89.4
+POSNW16,2018-12-20,pH,7.21
+POSNW16,2018-12-20,Specific Conductance,148.3
+POSNW16,2018-12-20,"Temperature, Water",16.6
+POSNW16,2018-12-20,Turbidity,16.3
+POSNW16,2019-01-04,Dissolved Oxygen,8.49
+POSNW16,2019-01-04,Dissolved Oxygen Saturation,93.8
+POSNW16,2019-01-04,pH,7.35
+POSNW16,2019-01-04,Specific Conductance,249
+POSNW16,2019-01-04,"Temperature, Water",20.2
+POSNW16,2019-01-04,Turbidity,2.79
+POSNW16,2019-01-18,Dissolved Oxygen,10.16
+POSNW16,2019-01-18,Dissolved Oxygen Saturation,97.1
+POSNW16,2019-01-18,pH,7.49
+POSNW16,2019-01-18,Specific Conductance,257
+POSNW16,2019-01-18,"Temperature, Water",13.3
+POSNW16,2019-01-18,Turbidity,1.5
+POSNW16,2019-01-25,Dissolved Oxygen,10.09
+POSNW16,2019-01-25,Dissolved Oxygen Saturation,96.1
+POSNW16,2019-01-25,pH,6.9
+POSNW16,2019-01-25,Specific Conductance,164.4
+POSNW16,2019-01-25,"Temperature, Water",13
+POSNW16,2019-01-25,Turbidity,5.03
+POSNW16,2019-02-06,Dissolved Oxygen,9.36
+POSNW16,2019-02-06,Dissolved Oxygen Saturation,98.5
+POSNW16,2019-02-06,pH,7.54
+POSNW16,2019-02-06,Specific Conductance,236.7
+POSNW16,2019-02-06,"Temperature, Water",17.7
+POSNW16,2019-02-06,Turbidity,4.65
+POSNW16,2019-02-20,Dissolved Oxygen,9.06
+POSNW16,2019-02-20,Dissolved Oxygen Saturation,100.5
+POSNW16,2019-02-20,pH,7.61
+POSNW16,2019-02-20,Specific Conductance,261.8
+POSNW16,2019-02-20,"Temperature, Water",20.3
+POSNW16,2019-02-20,Turbidity,1.94
+POSNW16,2019-03-22,Dissolved Oxygen,10.12
+POSNW16,2019-03-22,Dissolved Oxygen Saturation,99
+POSNW16,2019-03-22,pH,7.71
+POSNW16,2019-03-22,Specific Conductance,286.1
+POSNW16,2019-03-22,"Temperature, Water",14.3
+POSNW16,2019-03-22,Turbidity,1.79
+POSNW16,2019-04-03,Dissolved Oxygen,9.2
+POSNW16,2019-04-03,Dissolved Oxygen Saturation,96.7
+POSNW16,2019-04-03,pH,7.54
+POSNW16,2019-04-03,Specific Conductance,260.3
+POSNW16,2019-04-03,"Temperature, Water",17.7
+POSNW16,2019-04-03,Turbidity,1.88
+POSNW16,2019-04-24,Dissolved Oxygen,9.03
+POSNW16,2019-04-24,Dissolved Oxygen Saturation,96.6
+POSNW16,2019-04-24,pH,7.72
+POSNW16,2019-04-24,Specific Conductance,268.4
+POSNW16,2019-04-24,"Temperature, Water",18.6
+POSNW16,2019-04-24,Turbidity,1.4
+POSNW16,2019-05-07,Dissolved Oxygen,8.258
+POSNW16,2019-05-07,Dissolved Oxygen Saturation,95.5
+POSNW16,2019-05-07,pH,7.71
+POSNW16,2019-05-07,Specific Conductance,247.1
+POSNW16,2019-05-07,"Temperature, Water",22.4
+POSNW16,2019-05-07,Turbidity,1.33
+POSNW16,2019-05-24,Dissolved Oxygen,8.5
+POSNW16,2019-05-24,Dissolved Oxygen Saturation,99.6
+POSNW16,2019-05-24,pH,7.78
+POSNW16,2019-05-24,Specific Conductance,293.6
+POSNW16,2019-05-24,"Temperature, Water",23.3
+POSNW16,2019-05-24,Turbidity,0.74
+POSNW16,2019-06-06,Dissolved Oxygen,7.49
+POSNW16,2019-06-06,Dissolved Oxygen Saturation,90
+POSNW16,2019-06-06,pH,7.66
+POSNW16,2019-06-06,Specific Conductance,239.7
+POSNW16,2019-06-06,"Temperature, Water",24.6
+POSNW16,2019-06-06,Turbidity,3.02
+POSNW16,2019-06-18,Dissolved Oxygen,7.72
+POSNW16,2019-06-18,Dissolved Oxygen Saturation,92.1
+POSNW16,2019-06-18,pH,7.27
+POSNW16,2019-06-18,Specific Conductance,210.2
+POSNW16,2019-06-18,"Temperature, Water",24.2
+POSNW16,2019-06-18,Turbidity,5.15
+POSNW16,2019-07-09,Dissolved Oxygen,7.73
+POSNW16,2019-07-09,Dissolved Oxygen Saturation,94.9
+POSNW16,2019-07-09,pH,7.52
+POSNW16,2019-07-09,Specific Conductance,263.5
+POSNW16,2019-07-09,"Temperature, Water",25.8
+POSNW16,2019-07-09,Turbidity,2.39
+POSNW16,2019-07-29,Dissolved Oxygen,8.18
+POSNW16,2019-07-29,Dissolved Oxygen Saturation,96.7
+POSNW16,2019-07-29,pH,7.39
+POSNW16,2019-07-29,Specific Conductance,237.3
+POSNW16,2019-07-29,"Temperature, Water",23.7
+POSNW16,2019-07-29,Turbidity,4.36
+POSNW16,2019-08-14,Dissolved Oxygen,7.71
+POSNW16,2019-08-14,Dissolved Oxygen Saturation,95.4
+POSNW16,2019-08-14,pH,7.34
+POSNW16,2019-08-14,Specific Conductance,222.7
+POSNW16,2019-08-14,"Temperature, Water",26.1
+POSNW16,2019-08-14,Turbidity,4.27
+POSNW16,2019-08-28,Dissolved Oxygen,7.84
+POSNW16,2019-08-28,Dissolved Oxygen Saturation,94.9
+POSNW16,2019-08-28,pH,7.33
+POSNW16,2019-08-28,Specific Conductance,221.1
+POSNW16,2019-08-28,"Temperature, Water",25
+POSNW16,2019-08-28,Turbidity,4.81
+POSNW16,2019-09-11,Dissolved Oxygen,8.18
+POSNW16,2019-09-11,Dissolved Oxygen Saturation,96.8
+POSNW16,2019-09-11,pH,7.75
+POSNW16,2019-09-11,Specific Conductance,265.4
+POSNW16,2019-09-11,"Temperature, Water",23.8
+POSNW16,2019-09-11,Turbidity,2.93
+POSNW16,2019-09-25,Dissolved Oxygen,8.33
+POSNW16,2019-09-25,Dissolved Oxygen Saturation,96.9
+POSNW16,2019-09-25,pH,7.79
+POSNW16,2019-09-25,Specific Conductance,304.7
+POSNW16,2019-09-25,"Temperature, Water",22.9
+POSNW16,2019-09-25,Turbidity,1.49
+POSNW16,2019-10-09,Dissolved Oxygen,8.07
+POSNW16,2019-10-09,Dissolved Oxygen Saturation,94.4
+POSNW16,2019-10-09,pH,7.48
+POSNW16,2019-10-09,Specific Conductance,238
+POSNW16,2019-10-09,"Temperature, Water",23.1
+POSNW16,2019-10-09,Turbidity,3.82
+POSNW16,2019-10-23,Dissolved Oxygen,8.93
+POSNW16,2019-10-23,Dissolved Oxygen Saturation,97.6
+POSNW16,2019-10-23,pH,7.57
+POSNW16,2019-10-23,Specific Conductance,265.8
+POSNW16,2019-10-23,"Temperature, Water",19.5
+POSNW16,2019-10-23,Turbidity,2.19
+POSNW16,2019-11-06,Dissolved Oxygen,8.69
+POSNW16,2019-11-06,Dissolved Oxygen Saturation,98.6
+POSNW16,2019-11-06,pH,7.58
+POSNW16,2019-11-06,Specific Conductance,281.9
+POSNW16,2019-11-06,"Temperature, Water",21.5
+POSNW16,2019-11-06,Turbidity,1.78
+POSNW16,2019-11-20,Dissolved Oxygen,10.17
+POSNW16,2019-11-20,Dissolved Oxygen Saturation,100.1
+POSNW16,2019-11-20,pH,7.69
+POSNW16,2019-11-20,Specific Conductance,285.1
+POSNW16,2019-11-20,"Temperature, Water",14.6
+POSNW16,2019-11-20,Turbidity,1.08
+POSNW16,2019-12-17,Dissolved Oxygen,8.33
+POSNW16,2019-12-17,Dissolved Oxygen Saturation,91.3
+POSNW16,2019-12-17,pH,7.35
+POSNW16,2019-12-17,Specific Conductance,262.2
+POSNW16,2019-12-17,"Temperature, Water",19.8
+POSNW16,2019-12-17,Turbidity,1.45
+POSNW16,2020-01-10,Dissolved Oxygen,9.05
+POSNW16,2020-01-10,Dissolved Oxygen Saturation,96.1
+POSNW16,2020-01-10,pH,7.58
+POSNW16,2020-01-10,Specific Conductance,272.4
+POSNW16,2020-01-10,"Temperature, Water",18.2
+POSNW16,2020-01-10,Turbidity,1.62
+POSNW16,2020-02-12,Dissolved Oxygen,8.5
+POSNW16,2020-02-12,Dissolved Oxygen Saturation,95.6
+POSNW16,2020-02-12,pH,7.88
+POSNW16,2020-02-12,Specific Conductance,269.6
+POSNW16,2020-02-12,"Temperature, Water",21.1
+POSNW16,2020-02-12,Turbidity,1.3
+POSNW16,2020-02-28,Dissolved Oxygen,10.38
+POSNW16,2020-02-28,Dissolved Oxygen Saturation,95.8
+POSNW16,2020-02-28,pH,7.6
+POSNW16,2020-02-28,Specific Conductance,206
+POSNW16,2020-02-28,"Temperature, Water",11.7
+POSNW16,2020-02-28,Turbidity,2.48
+POSNW16,2020-03-12,Dissolved Oxygen,9.18
+POSNW16,2020-03-12,Dissolved Oxygen Saturation,98.1
+POSNW16,2020-03-12,pH,7.71
+POSNW16,2020-03-12,Specific Conductance,270.7
+POSNW16,2020-03-12,"Temperature, Water",18.5
+POSNW16,2020-03-12,Turbidity,1.01
+POSNW16,2020-05-12,Dissolved Oxygen,9.13
+POSNW16,2020-05-12,Dissolved Oxygen Saturation,96.5
+POSNW16,2020-05-12,pH,7.63
+POSNW16,2020-05-12,Specific Conductance,241.7
+POSNW16,2020-05-12,"Temperature, Water",18
+POSNW16,2020-05-12,Turbidity,1.4
+POSNW16,2020-06-26,Dissolved Oxygen,8.04
+POSNW16,2020-06-26,Dissolved Oxygen Saturation,96.4
+POSNW16,2020-06-26,pH,7.82
+POSNW16,2020-06-26,Specific Conductance,257.9
+POSNW16,2020-06-26,"Temperature, Water",24.5
+POSNW16,2020-06-26,Turbidity,
+POSNW16,2020-07-16,Dissolved Oxygen,7.83
+POSNW16,2020-07-16,Dissolved Oxygen Saturation,91.8
+POSNW16,2020-07-16,pH,7.33
+POSNW16,2020-07-16,Specific Conductance,139.9
+POSNW16,2020-07-16,"Temperature, Water",24.7
+POSNW16,2020-07-16,Turbidity,11.49
+POSNW16,2020-07-28,Dissolved Oxygen,8.07
+POSNW16,2020-07-28,Dissolved Oxygen Saturation,96.2
+POSNW16,2020-07-28,pH,7.79
+POSNW16,2020-07-28,Specific Conductance,251.4
+POSNW16,2020-07-28,"Temperature, Water",24.2
+POSNW16,2020-07-28,Turbidity,2.37
+POSNW16,2020-08-14,Dissolved Oxygen,8.18
+POSNW16,2020-08-14,Dissolved Oxygen Saturation,96.8
+POSNW16,2020-08-14,pH,7.65
+POSNW16,2020-08-14,Specific Conductance,260.5
+POSNW16,2020-08-14,"Temperature, Water",23.7
+POSNW16,2020-08-14,Turbidity,3
+POSNW16,2020-08-24,Dissolved Oxygen,8.11
+POSNW16,2020-08-24,Dissolved Oxygen Saturation,95.5
+POSNW16,2020-08-24,pH,7.72
+POSNW16,2020-08-24,Specific Conductance,198.7
+POSNW16,2020-08-24,"Temperature, Water",23.5
+POSNW16,2020-08-24,Turbidity,3.17
+POSNW16,2020-09-10,Dissolved Oxygen,8.23
+POSNW16,2020-09-10,Dissolved Oxygen Saturation,94.5
+POSNW16,2020-09-10,pH,7.41
+POSNW16,2020-09-10,Specific Conductance,130.2
+POSNW16,2020-09-10,"Temperature, Water",22.1
+POSNW16,2020-09-10,Turbidity,16.83
+POSNW16,2020-09-24,Dissolved Oxygen,8.96
+POSNW16,2020-09-24,Dissolved Oxygen Saturation,95.2
+POSNW16,2020-09-24,pH,7.73
+POSNW16,2020-09-24,Specific Conductance,250.1
+POSNW16,2020-09-24,"Temperature, Water",18.2
+POSNW16,2020-09-24,Turbidity,2.2
+POSNW16,2020-10-08,Dissolved Oxygen,8.88
+POSNW16,2020-10-08,Dissolved Oxygen Saturation,95.2
+POSNW16,2020-10-08,pH,7.79
+POSNW16,2020-10-08,Specific Conductance,233.4
+POSNW16,2020-10-08,"Temperature, Water",18.6
+POSNW16,2020-10-08,Turbidity,1.96
+POSNW16,2020-10-22,Dissolved Oxygen,8.93
+POSNW16,2020-10-22,Dissolved Oxygen Saturation,93.3
+POSNW16,2020-10-22,pH,7.69
+POSNW16,2020-10-22,Specific Conductance,239.6
+POSNW16,2020-10-22,"Temperature, Water",17.5
+POSNW16,2020-10-22,Turbidity,8.23
+SWB,2018-10-18,Dissolved Oxygen,7.44
+SWB,2018-10-18,Dissolved Oxygen Saturation,93.5
+SWB,2018-10-18,pH,7.43
+SWB,2018-10-18,Specific Conductance,858.4
+SWB,2018-10-18,"Temperature, Water",27.12
+SWB,2018-10-31,Dissolved Oxygen,8.12
+SWB,2018-10-31,Dissolved Oxygen Saturation,95.1
+SWB,2018-10-31,pH,7.69
+SWB,2018-10-31,Specific Conductance,773.8
+SWB,2018-10-31,"Temperature, Water",23.3
+SWB,2018-10-31,Turbidity,1.1
+SWB,2018-11-08,Dissolved Oxygen,7.88
+SWB,2018-11-08,Dissolved Oxygen Saturation,96.1
+SWB,2018-11-08,pH,7.65
+SWB,2018-11-08,Specific Conductance,843
+SWB,2018-11-08,"Temperature, Water",25.3
+SWB,2018-11-08,Turbidity,-0.37
+SWB,2018-11-13,Dissolved Oxygen,7.97
+SWB,2018-11-13,Dissolved Oxygen Saturation,97.7
+SWB,2018-11-13,pH,7.68
+SWB,2018-11-13,Specific Conductance,837
+SWB,2018-11-13,"Temperature, Water",25.5
+SWB,2018-11-13,Turbidity,0.76
+SWB,2018-11-29,Dissolved Oxygen,9.11
+SWB,2018-11-29,Dissolved Oxygen Saturation,96.9
+SWB,2018-11-29,pH,7.63
+SWB,2018-11-29,Specific Conductance,801
+SWB,2018-11-29,"Temperature, Water",18.2
+SWB,2018-11-29,Turbidity,1.29
+SWB,2018-12-05,Dissolved Oxygen,9.17
+SWB,2018-12-05,Dissolved Oxygen Saturation,99.3
+SWB,2018-12-05,pH,7.79
+SWB,2018-12-05,Specific Conductance,683
+SWB,2018-12-05,"Temperature, Water",19.1
+SWB,2018-12-05,Turbidity,1.4
+SWB,2018-12-20,Dissolved Oxygen,9.19
+SWB,2018-12-20,Dissolved Oxygen Saturation,96.7
+SWB,2018-12-20,pH,7.27
+SWB,2018-12-20,Specific Conductance,175.5
+SWB,2018-12-20,"Temperature, Water",17.8
+SWB,2018-12-20,Turbidity,27.38
+SWB,2019-01-04,Dissolved Oxygen,8.47
+SWB,2019-01-04,Dissolved Oxygen Saturation,97.9
+SWB,2019-01-04,pH,7.36
+SWB,2019-01-04,Specific Conductance,770
+SWB,2019-01-04,"Temperature, Water",22.4
+SWB,2019-01-04,Turbidity,1.06
+SWB,2019-01-18,Dissolved Oxygen,9.2
+SWB,2019-01-18,Dissolved Oxygen Saturation,98.3
+SWB,2019-01-18,pH,7.47
+SWB,2019-01-18,Specific Conductance,795
+SWB,2019-01-18,"Temperature, Water",18.4
+SWB,2019-01-18,Turbidity,3.6
+SWB,2019-01-25,Dissolved Oxygen,9.51
+SWB,2019-01-25,Dissolved Oxygen Saturation,99.6
+SWB,2019-01-25,pH,7.54
+SWB,2019-01-25,Specific Conductance,589
+SWB,2019-01-25,"Temperature, Water",17.5
+SWB,2019-01-25,Turbidity,2.2
+SWB,2019-02-06,Dissolved Oxygen,8.74
+SWB,2019-02-06,Dissolved Oxygen Saturation,97.4
+SWB,2019-02-06,pH,7.35
+SWB,2019-02-06,Specific Conductance,580
+SWB,2019-02-06,"Temperature, Water",20.6
+SWB,2019-02-06,Turbidity,3.92
+SWB,2019-02-20,Dissolved Oxygen,8.66
+SWB,2019-02-20,Dissolved Oxygen Saturation,99.8
+SWB,2019-02-20,pH,7.44
+SWB,2019-02-20,Specific Conductance,646
+SWB,2019-02-20,"Temperature, Water",22.2
+SWB,2019-02-20,Turbidity,1.05
+SWB,2019-03-22,Dissolved Oxygen,8.99
+SWB,2019-03-22,Dissolved Oxygen Saturation,98.6
+SWB,2019-03-22,pH,7.53
+SWB,2019-03-22,Specific Conductance,756
+SWB,2019-03-22,"Temperature, Water",19.7
+SWB,2019-03-22,Turbidity,0.78
+SWB,2019-04-03,Dissolved Oxygen,8.72
+SWB,2019-04-03,Dissolved Oxygen Saturation,96.9
+SWB,2019-04-03,pH,7.44
+SWB,2019-04-03,Specific Conductance,639
+SWB,2019-04-03,"Temperature, Water",20.4
+SWB,2019-04-03,Turbidity,0.64
+SWB,2019-04-24,Dissolved Oxygen,7.5
+SWB,2019-04-24,Dissolved Oxygen Saturation,88.1
+SWB,2019-04-24,pH,7.52
+SWB,2019-04-24,Specific Conductance,814
+SWB,2019-04-24,"Temperature, Water",23.3
+SWB,2019-04-24,Turbidity,0.41
+SWB,2019-05-07,Dissolved Oxygen,7.13
+SWB,2019-05-07,Dissolved Oxygen Saturation,88.2
+SWB,2019-05-07,pH,7.61
+SWB,2019-05-07,Specific Conductance,673
+SWB,2019-05-07,"Temperature, Water",26.1
+SWB,2019-05-07,Turbidity,1.09
+SWB,2019-05-24,Dissolved Oxygen,6.12
+SWB,2019-05-24,Dissolved Oxygen Saturation,74.4
+SWB,2019-05-24,pH,7.29
+SWB,2019-05-24,Specific Conductance,787
+SWB,2019-05-24,"Temperature, Water",25.1
+SWB,2019-05-24,Turbidity,0.34
+SWB,2019-06-06,Dissolved Oxygen,6.77
+SWB,2019-06-06,Dissolved Oxygen Saturation,86.1
+SWB,2019-06-06,pH,7.45
+SWB,2019-06-06,Specific Conductance,693
+SWB,2019-06-06,"Temperature, Water",27.6
+SWB,2019-06-06,Turbidity,0.39
+SWB,2019-06-18,Dissolved Oxygen,7.3
+SWB,2019-06-18,Dissolved Oxygen Saturation,92.5
+SWB,2019-06-18,pH,7.57
+SWB,2019-06-18,Specific Conductance,298.4
+SWB,2019-06-18,"Temperature, Water",27.5
+SWB,2019-06-18,Turbidity,17.08
+SWB,2019-07-09,Dissolved Oxygen,7.05
+SWB,2019-07-09,Dissolved Oxygen Saturation,89.4
+SWB,2019-07-09,pH,7.54
+SWB,2019-07-09,Specific Conductance,725
+SWB,2019-07-09,"Temperature, Water",24.7
+SWB,2019-07-09,Turbidity,0.42
+SWB,2019-07-29,Dissolved Oxygen,7.6
+SWB,2019-07-29,Dissolved Oxygen Saturation,97.6
+SWB,2019-07-29,pH,7.49
+SWB,2019-07-29,Specific Conductance,582
+SWB,2019-07-29,"Temperature, Water",27
+SWB,2019-07-29,Turbidity,3.47
+SWB,2019-08-14,Dissolved Oxygen,7.22
+SWB,2019-08-14,Dissolved Oxygen Saturation,94.2
+SWB,2019-08-14,pH,7.76
+SWB,2019-08-14,Specific Conductance,817
+SWB,2019-08-14,"Temperature, Water",29.1
+SWB,2019-08-14,Turbidity,0.66
+SWB,2019-08-28,Dissolved Oxygen,7.83
+SWB,2019-08-28,Dissolved Oxygen Saturation,98.5
+SWB,2019-08-28,pH,7.47
+SWB,2019-08-28,Specific Conductance,439.3
+SWB,2019-08-28,"Temperature, Water",27
+SWB,2019-08-28,Turbidity,3.36
+SWB,2019-09-11,Dissolved Oxygen,7.3
+SWB,2019-09-11,Dissolved Oxygen Saturation,92.3
+SWB,2019-09-11,pH,7.53
+SWB,2019-09-11,Specific Conductance,833
+SWB,2019-09-11,"Temperature, Water",27.3
+SWB,2019-09-11,Turbidity,0.68
+SWB,2019-09-25,Dissolved Oxygen,7.18
+SWB,2019-09-25,Dissolved Oxygen Saturation,88.1
+SWB,2019-09-25,pH,7.54
+SWB,2019-09-25,Specific Conductance,757
+SWB,2019-09-25,"Temperature, Water",25.6
+SWB,2019-09-25,Turbidity,2.6
+SWB,2019-10-09,Dissolved Oxygen,7.39
+SWB,2019-10-09,Dissolved Oxygen Saturation,91
+SWB,2019-10-09,pH,7.39
+SWB,2019-10-09,Specific Conductance,781
+SWB,2019-10-09,"Temperature, Water",25.8
+SWB,2019-10-09,Turbidity,1.39
+SWB,2019-10-23,Dissolved Oxygen,0.01
+SWB,2019-10-23,Dissolved Oxygen Saturation,1.2
+SWB,2019-10-23,pH,6.48
+SWB,2019-10-23,Specific Conductance,816
+SWB,2019-10-23,"Temperature, Water",24.1
+SWB,2019-10-23,Turbidity,1.73
+SWB,2019-11-06,Dissolved Oxygen,7.63
+SWB,2019-11-06,Dissolved Oxygen Saturation,91.7
+SWB,2019-11-06,pH,7.52
+SWB,2019-11-06,Specific Conductance,800
+SWB,2019-11-06,"Temperature, Water",24.5
+SWB,2019-11-06,Turbidity,0.5
+SWB,2019-11-20,Dissolved Oxygen,8.65
+SWB,2019-11-20,Dissolved Oxygen Saturation,93.7
+SWB,2019-11-20,pH,7.56
+SWB,2019-11-20,Specific Conductance,837
+SWB,2019-11-20,"Temperature, Water",19.1
+SWB,2019-11-20,Turbidity,0.72
+SWB,2019-12-17,Dissolved Oxygen,7.93
+SWB,2019-12-17,Dissolved Oxygen Saturation,90.1
+SWB,2019-12-17,pH,7.35
+SWB,2019-12-17,Specific Conductance,704
+SWB,2019-12-17,"Temperature, Water",21.6
+SWB,2019-12-17,Turbidity,0.71
+SWB,2020-01-10,Dissolved Oxygen,8.84
+SWB,2020-01-10,Dissolved Oxygen Saturation,98
+SWB,2020-01-10,pH,7.6
+SWB,2020-01-10,Specific Conductance,661
+SWB,2020-01-10,"Temperature, Water",20.3
+SWB,2020-01-10,Turbidity,0.65
+SWB,2020-02-12,Dissolved Oxygen,8.7
+SWB,2020-02-12,Dissolved Oxygen Saturation,94.9
+SWB,2020-02-12,pH,7.63
+SWB,2020-02-12,Specific Conductance,700
+SWB,2020-02-12,"Temperature, Water",22.7
+SWB,2020-02-12,Turbidity,0.58
+SWB,2020-02-28,Dissolved Oxygen,9.13
+SWB,2020-02-28,Dissolved Oxygen Saturation,95.7
+SWB,2020-02-28,pH,7.6
+SWB,2020-02-28,Specific Conductance,713
+SWB,2020-02-28,"Temperature, Water",17.5
+SWB,2020-02-28,Turbidity,1.01
+SWB,2020-03-12,Dissolved Oxygen,8.32
+SWB,2020-03-12,Dissolved Oxygen Saturation,95.3
+SWB,2020-03-12,pH,7.43
+SWB,2020-03-12,Specific Conductance,738
+SWB,2020-03-12,"Temperature, Water",22
+SWB,2020-03-12,Turbidity,0.59
+SWB,2020-05-12,Dissolved Oxygen,7.54
+SWB,2020-05-12,Dissolved Oxygen Saturation,89.1
+SWB,2020-05-12,pH,7.42
+SWB,2020-05-12,Specific Conductance,768
+SWB,2020-05-12,"Temperature, Water",23.6
+SWB,2020-05-12,Turbidity,0.75
+SWB,2020-06-26,Dissolved Oxygen,7.5
+SWB,2020-06-26,Dissolved Oxygen Saturation,95.2
+SWB,2020-06-26,pH,7.64
+SWB,2020-06-26,Specific Conductance,587
+SWB,2020-06-26,"Temperature, Water",27.4
+SWB,2020-06-26,Turbidity,
+SWB,2020-07-16,Dissolved Oxygen,7.68
+SWB,2020-07-16,Dissolved Oxygen Saturation,95.1
+SWB,2020-07-16,pH,7.72
+SWB,2020-07-16,Specific Conductance,451.2
+SWB,2020-07-16,"Temperature, Water",26.2
+SWB,2020-07-16,Turbidity,6.07
+SWB,2020-07-28,Dissolved Oxygen,7.27
+SWB,2020-07-28,Dissolved Oxygen Saturation,89.7
+SWB,2020-07-28,pH,7.71
+SWB,2020-07-28,Specific Conductance,692
+SWB,2020-07-28,"Temperature, Water",25.9
+SWB,2020-07-28,Turbidity,0.78
+SWB,2020-08-14,Dissolved Oxygen,7.29
+SWB,2020-08-14,Dissolved Oxygen Saturation,89.3
+SWB,2020-08-14,pH,7.52
+SWB,2020-08-14,Specific Conductance,801
+SWB,2020-08-14,"Temperature, Water",25.5
+SWB,2020-08-14,Turbidity,0.37
+SWB,2020-08-24,Dissolved Oxygen,7.77
+SWB,2020-08-24,Dissolved Oxygen Saturation,95.5
+SWB,2020-08-24,pH,7.64
+SWB,2020-08-24,Specific Conductance,596
+SWB,2020-08-24,"Temperature, Water",25.7
+SWB,2020-08-24,Turbidity,0.81
+SWB,2020-09-10,Dissolved Oxygen,8.24
+SWB,2020-09-10,Dissolved Oxygen Saturation,97.4
+SWB,2020-09-10,pH,7.59
+SWB,2020-09-10,Specific Conductance,462.2
+SWB,2020-09-10,"Temperature, Water",23.6
+SWB,2020-09-10,Turbidity,1.17
+SWB,2020-09-24,Dissolved Oxygen,8.12
+SWB,2020-09-24,Dissolved Oxygen Saturation,90.3
+SWB,2020-09-24,pH,7.59
+SWB,2020-09-24,Specific Conductance,679
+SWB,2020-09-24,"Temperature, Water",20.4
+SWB,2020-09-24,Turbidity,0.67
+SWB,2020-10-08,Dissolved Oxygen,8.01
+SWB,2020-10-08,Dissolved Oxygen Saturation,89.4
+SWB,2020-10-08,pH,7.68
+SWB,2020-10-08,Specific Conductance,646
+SWB,2020-10-08,"Temperature, Water",20.6
+SWB,2020-10-08,Turbidity,0.59
+SWB,2020-10-22,Dissolved Oxygen,8.44
+SWB,2020-10-22,Dissolved Oxygen Saturation,91.5
+SWB,2020-10-22,pH,7.54
+SWB,2020-10-22,Specific Conductance,555
+SWB,2020-10-22,"Temperature, Water",19
+SWB,2020-10-22,Turbidity,1.73
+SWBUP,2019-04-24,Dissolved Oxygen,8.19
+SWBUP,2019-04-24,Dissolved Oxygen Saturation,94.5
+SWBUP,2019-04-24,pH,7.72
+SWBUP,2019-04-24,Specific Conductance,352.1
+SWBUP,2019-04-24,"Temperature, Water",22.4
+SWBUP,2019-04-24,Turbidity,0.51
+SWBUP,2019-05-07,Dissolved Oxygen,9.31
+SWBUP,2019-05-07,Dissolved Oxygen Saturation,117
+SWBUP,2019-05-07,pH,8.28
+SWBUP,2019-05-07,Specific Conductance,293
+SWBUP,2019-05-07,"Temperature, Water",27
+SWBUP,2019-05-07,Turbidity,1.51
+SWBUP,2019-05-24,Dissolved Oxygen,7.49
+SWBUP,2019-05-24,Dissolved Oxygen Saturation,87.4
+SWBUP,2019-05-24,pH,7.6
+SWBUP,2019-05-24,Specific Conductance,362.5
+SWBUP,2019-05-24,"Temperature, Water",23
+SWBUP,2019-05-24,Turbidity,0.9
+SWBUP,2019-06-06,Dissolved Oxygen,6.86
+SWBUP,2019-06-06,Dissolved Oxygen Saturation,85.3
+SWBUP,2019-06-06,pH,7.7
+SWBUP,2019-06-06,Specific Conductance,305.1
+SWBUP,2019-06-06,"Temperature, Water",26.4
+SWBUP,2019-06-06,Turbidity,1.3
+SWBUP,2019-06-18,Dissolved Oxygen,7.1
+SWBUP,2019-06-18,Dissolved Oxygen Saturation,89.3
+SWBUP,2019-06-18,pH,7.66
+SWBUP,2019-06-18,Specific Conductance,208.05
+SWBUP,2019-06-18,"Temperature, Water",27.1
+SWBUP,2019-06-18,Turbidity,11.25
+SWBUP,2019-07-09,Dissolved Oxygen,7.38
+SWBUP,2019-07-09,Dissolved Oxygen Saturation,92.8
+SWBUP,2019-07-09,pH,7.76
+SWBUP,2019-07-09,Specific Conductance,609
+SWBUP,2019-07-09,"Temperature, Water",27
+SWBUP,2019-07-09,Turbidity,0.41
+SWBUP,2019-07-29,Dissolved Oxygen,7.41
+SWBUP,2019-07-29,Dissolved Oxygen Saturation,91.6
+SWBUP,2019-07-29,pH,7.23
+SWBUP,2019-07-29,Specific Conductance,423.1
+SWBUP,2019-07-29,"Temperature, Water",26.1
+SWBUP,2019-07-29,Turbidity,2.23
+SWBUP,2019-08-14,Dissolved Oxygen,7.25
+SWBUP,2019-08-14,Dissolved Oxygen Saturation,95.9
+SWBUP,2019-08-14,pH,7.75
+SWBUP,2019-08-14,Specific Conductance,528
+SWBUP,2019-08-14,"Temperature, Water",29.9
+SWBUP,2019-08-14,Turbidity,0.82
+SWBUP,2019-08-28,Dissolved Oxygen,7.41
+SWBUP,2019-08-28,Dissolved Oxygen Saturation,91.5
+SWBUP,2019-08-28,pH,7.43
+SWBUP,2019-08-28,Specific Conductance,384.8
+SWBUP,2019-08-28,"Temperature, Water",26.1
+SWBUP,2019-08-28,Turbidity,2.8
+SWBUP,2019-09-11,Dissolved Oxygen,7.67
+SWBUP,2019-09-11,Dissolved Oxygen Saturation,95.4
+SWBUP,2019-09-11,pH,7.68
+SWBUP,2019-09-11,Specific Conductance,540
+SWBUP,2019-09-11,"Temperature, Water",26.4
+SWBUP,2019-09-11,Turbidity,0.7
+SWBUP,2019-09-25,Dissolved Oxygen,7.22
+SWBUP,2019-09-25,Dissolved Oxygen Saturation,85.9
+SWBUP,2019-09-25,pH,7.66
+SWBUP,2019-09-25,Specific Conductance,650
+SWBUP,2019-09-25,"Temperature, Water",24
+SWBUP,2019-09-25,Turbidity,2.11
+SWBUP,2019-10-09,Dissolved Oxygen,7.45
+SWBUP,2019-10-09,Dissolved Oxygen Saturation,89.3
+SWBUP,2019-10-09,pH,7.61
+SWBUP,2019-10-09,Specific Conductance,608
+SWBUP,2019-10-09,"Temperature, Water",24.4
+SWBUP,2019-10-09,Turbidity,0.63
+SWBUP,2019-10-23,Dissolved Oxygen,8.06
+SWBUP,2019-10-23,Dissolved Oxygen Saturation,89.9
+SWBUP,2019-10-23,pH,7.43
+SWBUP,2019-10-23,Specific Conductance,509
+SWBUP,2019-10-23,"Temperature, Water",20.6
+SWBUP,2019-10-23,Turbidity,0.95
+SWBUP,2019-11-06,Dissolved Oxygen,7.68
+SWBUP,2019-11-06,Dissolved Oxygen Saturation,89.4
+SWBUP,2019-11-06,pH,7.65
+SWBUP,2019-11-06,Specific Conductance,716
+SWBUP,2019-11-06,"Temperature, Water",22.8
+SWBUP,2019-11-06,Turbidity,2.08
+SWBUP,2019-11-20,Dissolved Oxygen,9.56
+SWBUP,2019-11-20,Dissolved Oxygen Saturation,94.3
+SWBUP,2019-11-20,pH,7.63
+SWBUP,2019-11-20,Specific Conductance,658
+SWBUP,2019-11-20,"Temperature, Water",14.7
+SWBUP,2019-11-20,Turbidity,0.66
+SWBUP,2019-12-17,Dissolved Oxygen,8.33
+SWBUP,2019-12-17,Dissolved Oxygen Saturation,92
+SWBUP,2019-12-17,pH,7.42
+SWBUP,2019-12-17,Specific Conductance,336.8
+SWBUP,2019-12-17,"Temperature, Water",20.1
+SWBUP,2019-12-17,Turbidity,0.59
+SWBUP,2020-01-10,Dissolved Oxygen,9.47
+SWBUP,2020-01-10,Dissolved Oxygen Saturation,103.9
+SWBUP,2020-01-10,pH,7.78
+SWBUP,2020-01-10,Specific Conductance,495
+SWBUP,2020-01-10,"Temperature, Water",19.5
+SWBUP,2020-01-10,Turbidity,1.12
+SWBUP,2020-02-12,Dissolved Oxygen,8.88
+SWBUP,2020-02-12,Dissolved Oxygen Saturation,102.3
+SWBUP,2020-02-12,pH,7.98
+SWBUP,2020-02-12,Specific Conductance,361.6
+SWBUP,2020-02-12,"Temperature, Water",22.4
+SWBUP,2020-02-12,Turbidity,1.26
+SWBUP,2020-02-28,Dissolved Oxygen,9.67
+SWBUP,2020-02-28,Dissolved Oxygen Saturation,93.5
+SWBUP,2020-02-28,pH,7.73
+SWBUP,2020-02-28,Specific Conductance,511
+SWBUP,2020-02-28,"Temperature, Water",13.7
+SWBUP,2020-02-28,Turbidity,2.68
+SWBUP,2020-03-12,Dissolved Oxygen,9.35
+SWBUP,2020-03-12,Dissolved Oxygen Saturation,106
+SWBUP,2020-03-12,pH,7.95
+SWBUP,2020-03-12,Specific Conductance,676
+SWBUP,2020-03-12,"Temperature, Water",21.4
+SWBUP,2020-03-12,Turbidity,0.88
+SWBUP,2020-05-12,Dissolved Oxygen,8.62
+SWBUP,2020-05-12,Dissolved Oxygen Saturation,96.5
+SWBUP,2020-05-12,pH,7.86
+SWBUP,2020-05-12,Specific Conductance,312.7
+SWBUP,2020-05-12,"Temperature, Water",20.8
+SWBUP,2020-05-12,Turbidity,0.42
+SWBUP,2020-06-26,Dissolved Oxygen,8.1
+SWBUP,2020-06-26,Dissolved Oxygen Saturation,102.9
+SWBUP,2020-06-26,pH,8.03
+SWBUP,2020-06-26,Specific Conductance,545
+SWBUP,2020-06-26,"Temperature, Water",27.6
+SWBUP,2020-06-26,Turbidity,
+SWBUP,2020-07-16,Dissolved Oxygen,7.37
+SWBUP,2020-07-16,Dissolved Oxygen Saturation,89.9
+SWBUP,2020-07-16,pH,7.69
+SWBUP,2020-07-16,Specific Conductance,330.1
+SWBUP,2020-07-16,"Temperature, Water",25.4
+SWBUP,2020-07-16,Turbidity,8.5
+SWBUP,2020-07-28,Dissolved Oxygen,7.23
+SWBUP,2020-07-28,Dissolved Oxygen Saturation,88.3
+SWBUP,2020-07-28,pH,7.8
+SWBUP,2020-07-28,Specific Conductance,636
+SWBUP,2020-07-28,"Temperature, Water",25.4
+SWBUP,2020-07-28,Turbidity,2.65
+SWBUP,2020-08-14,Dissolved Oxygen,7.13
+SWBUP,2020-08-14,Dissolved Oxygen Saturation,85.7
+SWBUP,2020-08-14,pH,7.76
+SWBUP,2020-08-14,Specific Conductance,640
+SWBUP,2020-08-14,"Temperature, Water",24.6
+SWBUP,2020-08-14,Turbidity,1.54
+SWBUP,2020-08-24,Dissolved Oxygen,7.59
+SWBUP,2020-08-24,Dissolved Oxygen Saturation,93
+SWBUP,2020-08-24,pH,7.73
+SWBUP,2020-08-24,Specific Conductance,524
+SWBUP,2020-08-24,"Temperature, Water",25.6
+SWBUP,2020-08-24,Turbidity,0.96
+SWBUP,2020-09-10,Dissolved Oxygen,7.87
+SWBUP,2020-09-10,Dissolved Oxygen Saturation,91.8
+SWBUP,2020-09-10,pH,7.68
+SWBUP,2020-09-10,Specific Conductance,3.82
+SWBUP,2020-09-10,"Temperature, Water",23
+SWBUP,2020-09-10,Turbidity,1.91
+SWBUP,2020-09-24,Dissolved Oxygen,8.12
+SWBUP,2020-09-24,Dissolved Oxygen Saturation,88.2
+SWBUP,2020-09-24,pH,7.68
+SWBUP,2020-09-24,Specific Conductance,524
+SWBUP,2020-09-24,"Temperature, Water",19.2
+SWBUP,2020-09-24,Turbidity,1.47
+SWBUP,2020-10-08,Dissolved Oxygen,7.68
+SWBUP,2020-10-08,Dissolved Oxygen Saturation,84.5
+SWBUP,2020-10-08,pH,7.74
+SWBUP,2020-10-08,Specific Conductance,586
+SWBUP,2020-10-08,"Temperature, Water",19.9
+SWBUP,2020-10-08,Turbidity,1.21
+SWBUP,2020-10-22,Dissolved Oxygen,7.67
+SWBUP,2020-10-22,Dissolved Oxygen Saturation,82
+SWBUP,2020-10-22,pH,7.64
+SWBUP,2020-10-22,Specific Conductance,399.6
+SWBUP,2020-10-22,"Temperature, Water",18.2
+SWBUP,2020-10-22,Turbidity,4.19
+TUM441,2018-09-14,Dissolved Oxygen,10.45
+TUM441,2018-09-14,Dissolved Oxygen Saturation,131.4
+TUM441,2018-09-14,pH,8.58
+TUM441,2018-09-14,"Temperature, Water",27.1
+TUM441,2018-09-14,Turbidity,1
+TUM441,2018-10-18,Dissolved Oxygen,9.79
+TUM441,2018-10-18,Dissolved Oxygen Saturation,120.4
+TUM441,2018-10-18,pH,8.43
+TUM441,2018-10-18,Specific Conductance,405.8
+TUM441,2018-10-18,"Temperature, Water",25.9
+TUM441,2018-10-31,Dissolved Oxygen,11.69
+TUM441,2018-10-31,Dissolved Oxygen Saturation,137
+TUM441,2018-10-31,pH,8.71
+TUM441,2018-10-31,Specific Conductance,407.4
+TUM441,2018-10-31,"Temperature, Water",23.3
+TUM441,2018-10-31,Turbidity,0.7
+TUM441,2018-11-08,Dissolved Oxygen,10.91
+TUM441,2018-11-08,Dissolved Oxygen Saturation,133.7
+TUM441,2018-11-08,pH,8.79
+TUM441,2018-11-08,Specific Conductance,395.4
+TUM441,2018-11-08,"Temperature, Water",25.7
+TUM441,2018-11-08,Turbidity,-2.73
+TUM441,2018-11-13,Dissolved Oxygen,10.67
+TUM441,2018-11-13,Dissolved Oxygen Saturation,129.5
+TUM441,2018-11-13,pH,8.65
+TUM441,2018-11-13,Specific Conductance,394.1
+TUM441,2018-11-13,"Temperature, Water",25.1
+TUM441,2018-11-13,Turbidity,0.37
+TUM441,2018-11-29,Dissolved Oxygen,11.96
+TUM441,2018-11-29,Dissolved Oxygen Saturation,117.5
+TUM441,2018-11-29,pH,8.46
+TUM441,2018-11-29,Specific Conductance,380.7
+TUM441,2018-11-29,"Temperature, Water",14.5
+TUM441,2018-11-29,Turbidity,0.64
+TUM441,2018-12-05,Dissolved Oxygen,11.3
+TUM441,2018-12-05,Dissolved Oxygen Saturation,115.5
+TUM441,2018-12-05,pH,8.38
+TUM441,2018-12-05,Specific Conductance,351.8
+TUM441,2018-12-05,"Temperature, Water",16.4
+TUM441,2018-12-05,Turbidity,0.79
+TUM441,2018-12-20,Dissolved Oxygen,9.33
+TUM441,2018-12-20,Dissolved Oxygen Saturation,97.4
+TUM441,2018-12-20,pH,7.91
+TUM441,2018-12-20,Specific Conductance,71.1
+TUM441,2018-12-20,"Temperature, Water",17.4
+TUM441,2018-12-20,Turbidity,19.65
+TUM441,2019-01-04,Dissolved Oxygen,10.05
+TUM441,2019-01-04,Dissolved Oxygen Saturation,114.8
+TUM441,2019-01-04,pH,8.16
+TUM441,2019-01-04,Specific Conductance,395.7
+TUM441,2019-01-04,"Temperature, Water",21.9
+TUM441,2019-01-04,Turbidity,4.85
+TUM441,2019-01-18,Dissolved Oxygen,13.57
+TUM441,2019-01-18,Dissolved Oxygen Saturation,139.5
+TUM441,2019-01-18,pH,8.62
+TUM441,2019-01-18,Specific Conductance,390.2
+TUM441,2019-01-18,"Temperature, Water",16.7
+TUM441,2019-01-18,Turbidity,0.75
+TUM441,2019-01-25,Dissolved Oxygen,10.75
+TUM441,2019-01-25,Dissolved Oxygen Saturation,107.3
+TUM441,2019-01-25,pH,8.03
+TUM441,2019-01-25,Specific Conductance,271.6
+TUM441,2019-01-25,"Temperature, Water",15.2
+TUM441,2019-01-25,Turbidity,3.37
+TUM441,2019-02-06,Dissolved Oxygen,12.63
+TUM441,2019-02-06,Dissolved Oxygen Saturation,138.9
+TUM441,2019-02-06,pH,8.54
+TUM441,2019-02-06,Specific Conductance,374.1
+TUM441,2019-02-06,"Temperature, Water",20
+TUM441,2019-02-06,Turbidity,0.89
+TUM441,2019-02-20,Dissolved Oxygen,9.63
+TUM441,2019-02-20,Dissolved Oxygen Saturation,109.2
+TUM441,2019-02-20,pH,8.11
+TUM441,2019-02-20,Specific Conductance,397.8
+TUM441,2019-02-20,"Temperature, Water",21.7
+TUM441,2019-02-20,Turbidity,0.92
+TUM441,2019-03-22,Dissolved Oxygen,12.23
+TUM441,2019-03-22,Dissolved Oxygen Saturation,133.9
+TUM441,2019-03-22,pH,8.47
+TUM441,2019-03-22,Specific Conductance,393.8
+TUM441,2019-03-22,"Temperature, Water",19.7
+TUM441,2019-03-22,Turbidity,1.5
+TUM441,2019-04-03,Dissolved Oxygen,10.52
+TUM441,2019-04-03,Dissolved Oxygen Saturation,115.1
+TUM441,2019-04-03,pH,8.09
+TUM441,2019-04-03,Specific Conductance,331.8
+TUM441,2019-04-03,"Temperature, Water",19.6
+TUM441,2019-04-03,Turbidity,0.94
+TUM441,2019-04-24,Dissolved Oxygen,11.26
+TUM441,2019-04-24,Dissolved Oxygen Saturation,133.4
+TUM441,2019-04-24,pH,8.6
+TUM441,2019-04-24,Specific Conductance,426.1
+TUM441,2019-04-24,"Temperature, Water",24
+TUM441,2019-04-24,Turbidity,0.25
+TUM441,2019-05-07,Dissolved Oxygen,9.31
+TUM441,2019-05-07,Dissolved Oxygen Saturation,117
+TUM441,2019-05-07,pH,8.28
+TUM441,2019-05-07,Specific Conductance,293
+TUM441,2019-05-07,"Temperature, Water",27
+TUM441,2019-05-07,Turbidity,1.51
+TUM441,2019-05-24,Dissolved Oxygen,10.87
+TUM441,2019-05-24,Dissolved Oxygen Saturation,128.3
+TUM441,2019-05-24,pH,8.28
+TUM441,2019-05-24,Specific Conductance,490.2
+TUM441,2019-05-24,"Temperature, Water",23.6
+TUM441,2019-05-24,Turbidity,0.73
+TUM441,2019-06-06,Dissolved Oxygen,9.53
+TUM441,2019-06-06,Dissolved Oxygen Saturation,121.2
+TUM441,2019-06-06,pH,8.39
+TUM441,2019-06-06,Specific Conductance,311.2
+TUM441,2019-06-06,"Temperature, Water",27.7
+TUM441,2019-06-06,Turbidity,10.8
+TUM441,2019-06-18,Dissolved Oxygen,7.53
+TUM441,2019-06-18,Dissolved Oxygen Saturation,95.7
+TUM441,2019-06-18,pH,7.65
+TUM441,2019-06-18,Specific Conductance,149.3
+TUM441,2019-06-18,"Temperature, Water",27.6
+TUM441,2019-06-18,Turbidity,7.95
+TUM441,2019-07-09,Dissolved Oxygen,9.74
+TUM441,2019-07-09,Dissolved Oxygen Saturation,121.8
+TUM441,2019-07-09,pH,8.14
+TUM441,2019-07-09,Specific Conductance,395.6
+TUM441,2019-07-09,"Temperature, Water",26.8
+TUM441,2019-07-09,Turbidity,1.08
+TUM441,2019-07-29,Dissolved Oxygen,9.18
+TUM441,2019-07-29,Dissolved Oxygen Saturation,116.6
+TUM441,2019-07-29,pH,8.01
+TUM441,2019-07-29,Specific Conductance,266.4
+TUM441,2019-07-29,"Temperature, Water",27.7
+TUM441,2019-07-29,Turbidity,5.96
+TUM441,2019-08-14,Dissolved Oxygen,9.5
+TUM441,2019-08-14,Dissolved Oxygen Saturation,123.6
+TUM441,2019-08-14,pH,8.04
+TUM441,2019-08-14,Specific Conductance,376.2
+TUM441,2019-08-14,"Temperature, Water",29
+TUM441,2019-08-14,Turbidity,0.94
+TUM441,2019-08-28,Dissolved Oxygen,7.78
+TUM441,2019-08-28,Dissolved Oxygen Saturation,96.8
+TUM441,2019-08-28,pH,7.71
+TUM441,2019-08-28,Specific Conductance,271.1
+TUM441,2019-08-28,"Temperature, Water",26.5
+TUM441,2019-08-28,Turbidity,4.32
+TUM441,2019-09-11,Dissolved Oxygen,10.14
+TUM441,2019-09-11,Dissolved Oxygen Saturation,129.6
+TUM441,2019-09-11,pH,8.25
+TUM441,2019-09-11,Specific Conductance,389.5
+TUM441,2019-09-11,"Temperature, Water",28
+TUM441,2019-09-11,Turbidity,0.88
+TUM441,2019-09-25,Dissolved Oxygen,7.7
+TUM441,2019-09-25,Dissolved Oxygen Saturation,91.1
+TUM441,2019-09-25,pH,7.74
+TUM441,2019-09-25,Specific Conductance,397.4
+TUM441,2019-09-25,"Temperature, Water",23.8
+TUM441,2019-09-25,Turbidity,0.7
+TUM441,2019-10-09,Dissolved Oxygen,8.02
+TUM441,2019-10-09,Dissolved Oxygen Saturation,95.9
+TUM441,2019-10-09,pH,7.67
+TUM441,2019-10-09,Specific Conductance,276.8
+TUM441,2019-10-09,"Temperature, Water",24.4
+TUM441,2019-10-09,Turbidity,2.32
+TUM441,2019-10-23,Dissolved Oxygen,8.08
+TUM441,2019-10-23,Dissolved Oxygen Saturation,89.9
+TUM441,2019-10-23,pH,7.59
+TUM441,2019-10-23,Specific Conductance,249.2
+TUM441,2019-10-23,"Temperature, Water",20.6
+TUM441,2019-10-23,Turbidity,2.07
+TUM441,2019-11-06,Dissolved Oxygen,10.71
+TUM441,2019-11-06,Dissolved Oxygen Saturation,122.4
+TUM441,2019-11-06,pH,7.96
+TUM441,2019-11-06,Specific Conductance,405.5
+TUM441,2019-11-06,"Temperature, Water",21.9
+TUM441,2019-11-06,Turbidity,0.75
+TUM441,2019-11-20,Dissolved Oxygen,10.51
+TUM441,2019-11-20,Dissolved Oxygen Saturation,101
+TUM441,2019-11-20,pH,7.74
+TUM441,2019-11-20,Specific Conductance,407.3
+TUM441,2019-11-20,"Temperature, Water",13.5
+TUM441,2019-11-20,Turbidity,0.9
+TUM441,2019-12-06,Dissolved Oxygen,10.53
+TUM441,2019-12-06,Dissolved Oxygen Saturation,97.3
+TUM441,2019-12-06,pH,7.62
+TUM441,2019-12-06,Specific Conductance,413.2
+TUM441,2019-12-06,"Temperature, Water",11.9
+TUM441,2019-12-06,Turbidity,0.56
+TUM441,2019-12-17,Dissolved Oxygen,10.25
+TUM441,2019-12-17,Dissolved Oxygen Saturation,114.5
+TUM441,2019-12-17,pH,7.86
+TUM441,2019-12-17,Specific Conductance,376.5
+TUM441,2019-12-17,"Temperature, Water",20.7
+TUM441,2019-12-17,Turbidity,0.5
+TUM441,2020-01-10,Dissolved Oxygen,12.96
+TUM441,2020-01-10,Dissolved Oxygen Saturation,141.2
+TUM441,2020-01-10,pH,8.23
+TUM441,2020-01-10,Specific Conductance,384.7
+TUM441,2020-01-10,"Temperature, Water",19.5
+TUM441,2020-01-10,Turbidity,0.52
+TUM441,2020-02-12,Dissolved Oxygen,11.3
+TUM441,2020-02-12,Dissolved Oxygen Saturation,130
+TUM441,2020-02-12,pH,8.61
+TUM441,2020-02-12,Specific Conductance,306.6
+TUM441,2020-02-12,"Temperature, Water",22.1
+TUM441,2020-02-12,Turbidity,0.23
+TUM441,2020-02-28,Dissolved Oxygen,11.5
+TUM441,2020-02-28,Dissolved Oxygen Saturation,118.2
+TUM441,2020-02-28,pH,8.21
+TUM441,2020-02-28,Specific Conductance,332.8
+TUM441,2020-02-28,"Temperature, Water",16.6
+TUM441,2020-02-28,Turbidity,1.11
+TUM441,2020-03-12,Dissolved Oxygen,13.61
+TUM441,2020-03-12,Dissolved Oxygen Saturation,158.7
+TUM441,2020-03-12,pH,8.95
+TUM441,2020-03-12,Specific Conductance,382.6
+TUM441,2020-03-12,"Temperature, Water",23
+TUM441,2020-03-12,Turbidity,0.43
+TUM441,2020-05-12,Dissolved Oxygen,10.79
+TUM441,2020-05-12,Dissolved Oxygen Saturation,127.3
+TUM441,2020-05-12,pH,8.5
+TUM441,2020-05-12,Specific Conductance,360
+TUM441,2020-05-12,"Temperature, Water",23.7
+TUM441,2020-05-12,Turbidity,0.89
+TUM441,2020-06-26,Dissolved Oxygen,13.91
+TUM441,2020-06-26,Dissolved Oxygen Saturation,179.8
+TUM441,2020-06-26,pH,8.89
+TUM441,2020-06-26,Specific Conductance,370.8
+TUM441,2020-06-26,"Temperature, Water",28.6
+TUM441,2020-06-26,Turbidity,
+TUM441,2020-07-16,Dissolved Oxygen,8.12
+TUM441,2020-07-16,Dissolved Oxygen Saturation,98.9
+TUM441,2020-07-16,pH,7.92
+TUM441,2020-07-16,Specific Conductance,223.7
+TUM441,2020-07-16,"Temperature, Water",25.3
+TUM441,2020-07-16,Turbidity,7.78
+TUM441,2020-07-28,Dissolved Oxygen,7.72
+TUM441,2020-07-28,Dissolved Oxygen Saturation,93.8
+TUM441,2020-07-28,pH,7.82
+TUM441,2020-07-28,Specific Conductance,247.9
+TUM441,2020-07-28,"Temperature, Water",25.4
+TUM441,2020-07-28,Turbidity,1.62
+TUM441,2020-08-14,Dissolved Oxygen,7.8
+TUM441,2020-08-14,Dissolved Oxygen Saturation,93
+TUM441,2020-08-14,pH,7.91
+TUM441,2020-08-14,Specific Conductance,372.6
+TUM441,2020-08-14,"Temperature, Water",24.2
+TUM441,2020-08-14,Turbidity,3.67
+TUM441,2020-08-24,Dissolved Oxygen,10.17
+TUM441,2020-08-24,Dissolved Oxygen Saturation,123.9
+TUM441,2020-08-24,pH,8.42
+TUM441,2020-08-24,Specific Conductance,267.8
+TUM441,2020-08-24,"Temperature, Water",25.4
+TUM441,2020-08-24,Turbidity,1.43
+TUM441,2020-09-10,Dissolved Oxygen,8.29
+TUM441,2020-09-10,Dissolved Oxygen Saturation,92.6
+TUM441,2020-09-10,pH,7.7
+TUM441,2020-09-10,Specific Conductance,239
+TUM441,2020-09-10,"Temperature, Water",22.7
+TUM441,2020-09-10,Turbidity,1.52
+TUM441,2020-09-24,Dissolved Oxygen,8.1
+TUM441,2020-09-24,Dissolved Oxygen Saturation,87.66
+TUM441,2020-09-24,pH,7.76
+TUM441,2020-09-24,Specific Conductance,392.6
+TUM441,2020-09-24,"Temperature, Water",19
+TUM441,2020-09-24,Turbidity,1.01
+TUM441,2020-10-08,Dissolved Oxygen,7.82
+TUM441,2020-10-08,Dissolved Oxygen Saturation,85.2
+TUM441,2020-10-08,pH,7.86
+TUM441,2020-10-08,Specific Conductance,367.1
+TUM441,2020-10-08,"Temperature, Water",19.4
+TUM441,2020-10-08,Turbidity,0.96
+TUM441,2020-10-22,Dissolved Oxygen,7.52
+TUM441,2020-10-22,Dissolved Oxygen Saturation,78.9
+TUM441,2020-10-22,pH,7.62
+TUM441,2020-10-22,Specific Conductance,192.5
+TUM441,2020-10-22,"Temperature, Water",17.7
+TUM441,2020-10-22,Turbidity,4.28
+HAT,2020-04-10,Dissolved Oxygen,
+HAT,2020-04-10,Dissolved Oxygen Saturation,
+HAT,2020-04-10,pH,
+HAT,2020-04-10,Specific Conductance,
+HAT,2020-04-10,"Temperature, Water",
+HAT,2020-04-10,Turbidity,
+HOGDN,2020-04-10,Dissolved Oxygen,
+HOGDN,2020-04-10,Dissolved Oxygen Saturation,
+HOGDN,2020-04-10,pH,
+HOGDN,2020-04-10,Specific Conductance,
+HOGDN,2020-04-10,"Temperature, Water",
+HOGDN,2020-04-10,Turbidity,
+HOGNW16,2020-04-10,Dissolved Oxygen,
+HOGNW16,2020-04-10,Dissolved Oxygen Saturation,
+HOGNW16,2020-04-10,pH,
+HOGNW16,2020-04-10,Specific Conductance,
+HOGNW16,2020-04-10,"Temperature, Water",
+HOGNW16,2020-04-10,Turbidity,
+POSNW16,2020-04-10,Dissolved Oxygen,
+POSNW16,2020-04-10,Dissolved Oxygen Saturation,
+POSNW16,2020-04-10,pH,
+POSNW16,2020-04-10,Specific Conductance,
+POSNW16,2020-04-10,"Temperature, Water",
+POSNW16,2020-04-10,Turbidity,
+SWB,2020-04-10,Dissolved Oxygen,
+SWB,2020-04-10,Dissolved Oxygen Saturation,
+SWB,2020-04-10,pH,
+SWB,2020-04-10,Specific Conductance,
+SWB,2020-04-10,"Temperature, Water",
+SWB,2020-04-10,Turbidity,
+SWBUP,2020-04-10,Dissolved Oxygen,
+SWBUP,2020-04-10,Dissolved Oxygen Saturation,
+SWBUP,2020-04-10,pH,
+SWBUP,2020-04-10,Specific Conductance,
+SWBUP,2020-04-10,"Temperature, Water",
+SWBUP,2020-04-10,Turbidity,
+TUM441,2020-04-10,Dissolved Oxygen,
+TUM441,2020-04-10,Dissolved Oxygen Saturation,
+TUM441,2020-04-10,pH,
+TUM441,2020-04-10,Specific Conductance,
+TUM441,2020-04-10,"Temperature, Water",
+TUM441,2020-04-10,Turbidity,
+HOGNW16,2019-02-06,Dissolved Oxygen,
+HOGNW16,2019-02-06,Dissolved Oxygen Saturation,
+HOGNW16,2019-02-06,pH,
+HOGNW16,2019-02-06,Specific Conductance,
+HOGNW16,2019-02-06,"Temperature, Water",
+HOGNW16,2019-02-06,Turbidity,
+HOGNW16,2019-02-20,Dissolved Oxygen,
+HOGNW16,2019-02-20,Dissolved Oxygen Saturation,
+HOGNW16,2019-02-20,pH,
+HOGNW16,2019-02-20,Specific Conductance,
+HOGNW16,2019-02-20,"Temperature, Water",
+HOGNW16,2019-02-20,Turbidity,
+HOGNW16,2019-03-22,Dissolved Oxygen,
+HOGNW16,2019-03-22,Dissolved Oxygen Saturation,
+HOGNW16,2019-03-22,pH,
+HOGNW16,2019-03-22,Specific Conductance,
+HOGNW16,2019-03-22,"Temperature, Water",
+HOGNW16,2019-03-22,Turbidity,

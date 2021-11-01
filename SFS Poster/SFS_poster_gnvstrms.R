@@ -39,7 +39,7 @@ data_nut = read_csv('gnv_nutrientdata_20190502.csv', col_types = cols(
   Result = col_double()))#nutrient data; fixed date format for date column
 
 
-data_fp = read_csv('gnv_fpdata_20190502.csv', col_types = cols(
+data_fp = read_csv('C:/Users/Emily/Documents/gnv_streams/SFS Poster/gnv_fpdata_20190502.csv', col_types = cols(
   Site = col_character(),
   Date = col_date(format = "%m/%d/%Y"),
   Time = col_time(format = ""),
@@ -165,7 +165,7 @@ fp2 = data_fp %>%
   filter(Analyte == 'DO_Sat' | Analyte == 'pH' | Analyte == 'SpCond' | Analyte == 'Temp' | Analyte == 'Turb') %>%
   group_by(Date, Site, Analyte)
 
-#fp2
+fp2
 
 field_param_ts = ggplot(fp2, aes(x = Date, y = Result))
 

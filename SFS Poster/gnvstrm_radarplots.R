@@ -40,7 +40,7 @@ library(animation)
 
 #set working directory
 
-setwd('C:/Users/etaylor21/Documents/gnv_streams/SFS Poster')
+setwd('C:/Users/Emily/Documents/gnv_streams/SFS Poster')
 
 #call in data file
 
@@ -79,7 +79,7 @@ data_fps
 #this will give the max value for each parameter; check that there are no major outliers, correct if needed
 #as.numeric(apply(data_fps, 2, max, na.rm = TRUE))
 
-summary.dat = plyr::ddply(data_fps[,c(4:8, 1)], .(Site), summarize, 
+summary.dat <- plyr::ddply(data_fps[,c(4:8, 1)], .(Site), summarize, 
                     mean.DO = mean(DO, na.rm = T), max.DO = max(DO, na.rm = T), min.DO = min(DO, na.rm = T),
                     mean.pH = mean(pH, na.rm = T), max.pH = max(pH, na.rm = T), min.pH = min(pH, na.rm = T),
                     mean.SpCond = mean(SpCond, na.rm = T), max.SpCond = max(SpCond, na.rm = T), min.SpCond = min(SpCond, na.rm = T),
